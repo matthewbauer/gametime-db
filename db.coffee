@@ -1,4 +1,2 @@
 sqlite3 = require('sqlite3')
-db = new sqlite3.Database('gametime.db')
-
-module.exports = db
+module.exports = new sqlite3.Database(__dirname + '/gametime.db')
