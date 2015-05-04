@@ -3,8 +3,7 @@ xml2js = require('xml2js')
 dir = 'data/no-intro'
 parser = new xml2js.Parser()
 
-sqlite3 = require('sqlite3')
-db = new sqlite3.Database('gametime.db')
+db = require('./db')
 
 # Using official no-intro naming conventions
 # http://datomatic.no-intro.org/stuff/The%20Official%20No-Intro%20Convention%20(20071030).zip
@@ -47,9 +46,9 @@ fs.readdir dir, (err, files) ->
           if title1
             title = title1
             subtitle = title2
-          s = db.prepare('insert or ignore into Game (title, subtitle, bios)' +
-                          ' values (?, ?, ?)')
-          s.run(title, subtitle, if bios then true else false)
+          s = db.prepare('insert or ignore into Game (title, bios)' +
+                          ' values (?, ?)')
+          s.run(gameName, if bios then true else false)
           s.finalize()
 
           region = null

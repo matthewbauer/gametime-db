@@ -1,6 +1,5 @@
 create table Game (
-  title varchar(255) primary key,
-  subtitle varchar(255),
+  title varchar(255),
   bios boolean not null default false,
 
   -- from gamerankings.com

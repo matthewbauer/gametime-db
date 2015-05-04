@@ -14,6 +14,16 @@ module.exports = (grunt) ->
         command: 'coffee giantbomb.coffee'
       gamerankings:
         command: 'coffee gamerankings.coffee'
+    coffee:
+      compile:
+        files: [
+          expand: true
+          src: ['db.coffee']
+          ext: '.js'
+        ]
   grunt.loadNpmTasks('grunt-shell')
-  grunt.registerTask('default', ['shell:clean', 'shell:init_db',
-                                'shell:nointro', 'shell:gamerankings'])
+  grunt.loadNpmTasks('grunt-contrib-coffee')
+  grunt.registerTask('db', ['shell:clean', 'shell:init_db',
+                            'shell:nointro', 'shell:gamerankings'])
+  grunt.registerTask('build', ['db', 'coffee:compile'])
+  grunt.registerTask('default', ['build'])

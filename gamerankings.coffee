@@ -1,8 +1,5 @@
 fs = require('fs')
-
-sqlite3 = require('sqlite3')
-db = new sqlite3.Database('gametime.db')
-
+db = require('./db')
 cheerio = require('cheerio')
 
 dir = 'data/gamerankings'

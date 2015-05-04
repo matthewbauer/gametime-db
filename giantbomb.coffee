@@ -1,5 +1,4 @@
-sqlite3 = require('sqlite3')
-db = new sqlite3.Database('gametime.db')
+db = require('./db')
 request = require('request')
 
 url = 'http://www.giantbomb.com/api/search/?api_key=c2355142693b4018d6b4ef365833d7e8193f96fd&format=json&resources=game&query='
