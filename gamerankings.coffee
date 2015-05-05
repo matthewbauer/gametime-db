@@ -22,8 +22,7 @@ fs.readdir dir, (err, files) ->
         rating = parseFloat(col4.find('span').text())
         reviews = parseInt($(col4.contents()[2]).text())
 
-        stmt = db.prepare('update Game set publisher=?,year=?,gameranking=?,
-                    gameranking_reviews=? where title=?')
+        stmt = db.prepare('update Game set publisher=?,year=?,gameranking=?, gameranking_reviews=? where title=?')
         stmt.run(publisher, year, rating, reviews, name)
         stmt.finalize()
 

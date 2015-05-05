@@ -27,7 +27,7 @@ create table ROM (
   file_name varchar(255) primary key,
   size integer not null,
   md5 binary(16) not null,
-  crc  binary(4) not null,
+  crc binary(4) not null,
   sha1 binary(20) not null,
 
   region varchar(255),

@@ -1,2 +1,4 @@
 data
-db.coffee
+*.coffee
+*.sql
+*.sh
