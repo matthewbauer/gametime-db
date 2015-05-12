@@ -1,6 +1,6 @@
 module.exports = (grunt) ->
   grunt.initConfig
-    pkg: grunt.file.readJSON('package.json')
+    pkg: grunt.file.readJSON 'package.json'
     shell:
       clean:
         command: 'rm gametime.db'
@@ -27,12 +27,14 @@ module.exports = (grunt) ->
           src: ['db.coffee']
           ext: '.js'
         ]
-  grunt.loadNpmTasks('grunt-mocha-test')
-  grunt.loadNpmTasks('grunt-shell')
-  grunt.loadNpmTasks('grunt-contrib-coffee')
-  grunt.registerTask('db', ['shell:clean', 'shell:init_db',
-                            'shell:nointro', 'shell:gamerankings'])
-  grunt.registerTask('prepublish', ['build'])
-  grunt.registerTask('test', ['mochaTest'])
-  grunt.registerTask('build', ['db', 'coffee:compile'])
-  grunt.registerTask('default', ['build', 'test'])
+
+  grunt.loadNpmTasks 'grunt-mocha-test'
+  grunt.loadNpmTasks 'grunt-shell'
+  grunt.loadNpmTasks 'grunt-contrib-coffee'
+
+  grunt.registerTask 'db', ['shell:clean', 'shell:init_db', 'shell:nointro',
+                            'shell:gamerankings', 'shell:giantbomb']
+  grunt.registerTask 'prepublish', ['build']
+  grunt.registerTask 'test', ['mochaTest']
+  grunt.registerTask 'build', ['db', 'coffee:compile']
+  grunt.registerTask 'default', ['build', 'test']

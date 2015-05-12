@@ -1,6 +1,8 @@
 create table Game (
-  title varchar(255) primary key,
-  bios boolean not null default false,
+  name varchar(255) primary key,
+  title varchar(255),
+  subtitle varchar(255),
+  bios boolean default false,
 
   -- from gamerankings.com
   publisher varchar(255),
@@ -9,17 +11,9 @@ create table Game (
   gameranking_reviews integer,
 
   -- from giantbomb
-  deck varchar(255),
-  description text,
-  giantbomb_id integer
-);
-
--- from giantbomb
-create table Artwork (
-  url varchar(255) primary key,
-  game varchar(255) not null,
-
-  foreign key (game) references Game(title)
+  giantbomb_id integer,
+  giantbomb_image varchar(255),
+  summary text
 );
 
 -- from no-intro
@@ -33,7 +27,7 @@ create table ROM (
   region varchar(255),
   console varchar(255) not null,
   game varchar(255) not null,
-  long_name varchar(255) not null,
+  nointro_name varchar(255) not null,
 
   foreign key (console) references Console(name),
   foreign key (game) references Game(title),
@@ -51,6 +45,6 @@ create table Company (
 create table Console (
   name varchar(255) primary key,
   company varchar(255) not null,
-  long_name varchar(255) not null,
+  nointro_name varchar(255) not null,
   foreign key (company) references Company(name)
 );

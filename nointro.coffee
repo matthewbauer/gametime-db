@@ -1,71 +1,72 @@
-fs = require('fs')
-xml2js = require('xml2js')
+fs = require 'fs'
+xml2js = require 'xml2js'
 dir = 'data/no-intro'
 parser = new xml2js.Parser()
 
-db = require('./db')
+db = require './db'
 
 # Using official no-intro naming conventions
 # http://datomatic.no-intro.org/stuff/The%20Official%20No-Intro%20Convention%20(20071030).zip
-noIntroROM = /(?:\[([^\]]*)\] )?([^\)]*) \(([^\)]*)\)(?: \(([^\)]*)\))?(?: \(([^\)]*)\))?(?: \(([^\)]*)\))?(?: \(([^\)]*)\))?(?: \(([^\)]*)\))?(?: \(([^\)]*)\))?(?: \[([^\]]*)\])?/
-noIntroConsole = /(.*?) - (?:(.*) - )?(.*) Parent-Clone/
-noIntroGame = /(?:(.*) - )?(.*)/
+noIntroROM = ///
+  (? : \[([^\]] * ) \]\s)? # BIOS prefix
+  ([^\) ] * ) \s\(([^\) ] * ) \) # name followed by region
+  (? : \s\(([^\) ] * ) \))?
+  (? : \s\(([^\) ] * ) \))?
+  (? : \s\(([^\) ] * ) \))?
+  (? : \s\(([^\) ] * ) \))?
+  (? : \s\(([^\) ] * ) \))?
+  (? : \s\(([^\) ] * ) \))?
+  (? : \s\[([^\]] * ) \])?
+///
 
 fs.readdir dir, (err, files) ->
   files.forEach (file) ->
-    filename = dir + '/' + file
-    if !fs.existsSync(filename)
+    filename = "#{dir}/#{file}"
+    if not fs.existsSync(filename)
       return
     fs.readFile filename, (err, data) ->
       parser.parseString data, (err, result) ->
         longConsoleName = result.datafile.header[0].description[0]
-        [[], company, [], consoleName] = longConsoleName.match(noIntroConsole)
+        [[], noIntroName, company, [], consoleName] = longConsoleName.match
+          /((.*?) - (?:(.*) - )?(.*)) Parent-Clone/
 
-        s = db.prepare('insert or ignore into Company (name) values (?)')
-        s.run(company)
-        s.finalize()
-
-        s = db.prepare('insert into Console (name, company, long_name) ' +
-                        'values (?, ?, ?)')
-        s.run(consoleName, company, longConsoleName.replace(' Parent-Clone',''))
-        s.finalize()
+        db.run 'insert or ignore into Company (name) values (?)', company
+        db.run 'insert into Console (name, company, nointro_name) values
+                (? , ? , ? ) ', consoleName, company, noIntroName
 
         result.datafile.game.forEach (game) ->
           longName = game.description[0]
-          [[], bios, name, region, misc...] = longName.match(noIntroROM)
+          [[], bios, name, region, misc...] = longName.match noIntroROM
           gameName = name
           if game.$.cloneof
-            match = game.$.cloneof.match(noIntroROM)
+            match = game.$.cloneof.match noIntroROM
             if not match
               gameName = game.$.cloneof
             else
               gameName = match[2]
-          [[], title1, title2] = gameName.match(noIntroGame)
+          [[], title1, title2] = gameName.match /(?:(.*) - )?(.*)/
           title = title2
           subtitle = null
           if title1
             title = title1
             subtitle = title2
-          s = db.prepare('insert or ignore into Game (title, bios)' +
-                          ' values (?, ?)')
-          s.run(gameName, if bios then true else false)
-          s.finalize()
+          db.run 'insert or ignore into Game (name, title, subtitle, bios)
+                  values (? , ? , ? , ? ) ', gameName, title, subtitle,
+                  if bios then true else false
 
           region = null
           if game.release
             region = game.release[0].$.region
+            db.run 'insert or ignore into Region (name) values (?)', region
 
-          s = db.prepare('insert or ignore into Region (name) values (?)')
-          s.run(region)
-          s.finalize()
+          file_name = game.rom[0].$.name
+          size = parseInt game.rom[0].$.size
+          md5 = parseInt game.rom[0].$.md5, 16
+          crc = parseInt game.rom[0].$.crc, 16
+          sha1 = parseInt game.rom[0].$.sha1, 16
 
-          s = db.prepare('insert or ignore into ROM' +
-                            '(file_name, size, md5, crc, sha1,' +
-                            'long_name, console, game, region) values ' +
-                            '(?, ?, ?, ?, ?, ?, ?, ?, ?)')
-          s.run(game.rom[0].$.name, parseInt(game.rom[0].$.size),
-                    parseInt(game.rom[0].$.md5, 16),
-                    parseInt(game.rom[0].$.crc, 16),
-                    parseInt(game.rom[0].$.sha1, 16),
-                    longName, consoleName, gameName, region)
-          s.finalize()
+          db.run 'insert or ignore into ROM (file_name, size, md5, crc, sha1,
+                  nointro_name, console, game, region) values
+                  (? , ? , ? , ? , ? , ? , ? , ? , ? ) ',
+                  file_name, size, md5, crc, sha1, longName, consoleName,
+                  gameName, region

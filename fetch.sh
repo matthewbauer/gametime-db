@@ -1,9 +1,13 @@
 #!/bin/sh
 
-mkdir -p data/gamerankings
-for i in $(seq 0 499)
-do
-  wget "http://www.gamerankings.com/browse.html?numrev=4&sort=0&page=$i" -O data/gamerankings/$i;
-done
-
 # how to get no-intro files?
+
+for letter in {A..Z}
+do
+  mkdir -p data/gamerankings/all/$letter
+  for i in $(seq 0 100)
+  do
+    wget "http://www.gamerankings.com/browse.html?numrev=2&sort=2&\
+    letter=$letter&page=$i" -O data/gamerankings/all/$letter/$i;
+  done
+done
