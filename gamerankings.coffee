@@ -1,11 +1,14 @@
 fs = require 'fs'
+path = require 'path'
+
 db = require './db'
+
 cheerio = require 'cheerio'
 
 for letter in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
-  fs.readdir ['data', 'gamerankings', 'all', letter].join('/'), (err, files) ->
+  fs.readdir path.join('data', 'gamerankings', 'all', letter), (err, files) ->
     for file in files
-      fs.readFile filename, (err, data) ->
+      fs.readFile path.join(''), (err, data) ->
         $ = cheerio.load data
         $('.pod .body table tr').each ->
           col1 = $($(@).children()[0])

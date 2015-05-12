@@ -1,34 +1,24 @@
 fs = require 'fs'
+path = require 'path'
+
 xml2js = require 'xml2js'
-dir = 'data/no-intro'
-parser = new xml2js.Parser()
 
 db = require './db'
 
-# Using official no-intro naming conventions
-# http://datomatic.no-intro.org/stuff/The%20Official%20No-Intro%20Convention%20(20071030).zip
-noIntroROM = ///
-  (? : \[([^\]] * ) \]\s)? # BIOS prefix
-  ([^\) ] * ) \s\(([^\) ] * ) \) # name followed by region
-  (? : \s\(([^\) ] * ) \))?
-  (? : \s\(([^\) ] * ) \))?
-  (? : \s\(([^\) ] * ) \))?
-  (? : \s\(([^\) ] * ) \))?
-  (? : \s\(([^\) ] * ) \))?
-  (? : \s\(([^\) ] * ) \))?
-  (? : \s\[([^\]] * ) \])?
-///
+dir = 'data/no-intro'
+parser = new xml2js.Parser()
 
 fs.readdir dir, (err, files) ->
   files.forEach (file) ->
-    filename = "#{dir}/#{file}"
+    filename = path.join dir, file
     if not fs.existsSync(filename)
       return
     fs.readFile filename, (err, data) ->
       parser.parseString data, (err, result) ->
         longConsoleName = result.datafile.header[0].description[0]
-        [[], noIntroName, company, [], consoleName] = longConsoleName.match
-          /((.*?) - (?:(.*) - )?(.*)) Parent-Clone/
+        [[], noIntroName, company, [], consoleName] = longConsoleName.match ///
+          ((. * ? ) \s - \s(? : (. * ) \s - \s)? (. * )) Parent - Clone
+        ///
 
         db.run 'insert or ignore into Company (name) values (?)', company
         db.run 'insert into Console (name, company, nointro_name) values
@@ -36,6 +26,21 @@ fs.readdir dir, (err, files) ->
 
         result.datafile.game.forEach (game) ->
           longName = game.description[0]
+
+          # Using official no-intro naming conventions
+          # http://datomatic.no-intro.org/stuff/The%20Official%20No-Intro%20Convention%20(20071030).zip
+          noIntroROM = ///
+            (? : \[([^\]] * ) \]\s)? # BIOS prefix
+            ([^\) ] * ) \s\(([^\) ] * ) \) # name followed by region
+            (? : \s\(([^\) ] * ) \))?
+            (? : \s\(([^\) ] * ) \))?
+            (? : \s\(([^\) ] * ) \))?
+            (? : \s\(([^\) ] * ) \))?
+            (? : \s\(([^\) ] * ) \))?
+            (? : \s\(([^\) ] * ) \))?
+            (? : \s\[([^\]] * ) \])?
+          ///
+
           [[], bios, name, region, misc...] = longName.match noIntroROM
           gameName = name
           if game.$.cloneof

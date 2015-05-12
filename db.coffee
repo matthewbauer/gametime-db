@@ -1,2 +1,3 @@
 sqlite3 = require 'sqlite3'
-module.exports = new sqlite3.Database "#{__dirname}/gametime.db"
+path = require 'path'
+module.exports = new sqlite3.Database path.join(__dirname, 'gametime.db')
