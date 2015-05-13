@@ -1,6 +1,6 @@
 request = require 'request'
 async = require 'async'
-url = require 'format'
+url = require 'url'
 
 db = require './db'
 
