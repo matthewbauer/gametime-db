@@ -1,4 +1,6 @@
 module.exports = (grunt) ->
+  require('load-grunt-tasks')(grunt)
+
   grunt.initConfig
     pkg: grunt.file.readJSON 'package.json'
     shell:
@@ -27,10 +29,6 @@ module.exports = (grunt) ->
           src: ['db.coffee']
           ext: '.js'
         ]
-
-  grunt.loadNpmTasks 'grunt-mocha-test'
-  grunt.loadNpmTasks 'grunt-shell'
-  grunt.loadNpmTasks 'grunt-contrib-coffee'
 
   grunt.registerTask 'db', ['shell:clean', 'shell:init_db', 'shell:nointro',
                             'shell:gamerankings', 'shell:giantbomb']
