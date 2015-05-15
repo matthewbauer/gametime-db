@@ -5,7 +5,7 @@ module.exports = (grunt) ->
     pkg: grunt.file.readJSON 'package.json'
     shell:
       clean:
-        command: '[ -e gametime.db ] && rm gametime.db'
+        command: '[ ! -e gametime.db ] || rm gametime.db'
       init_db:
         command: 'sqlite3 gametime.db < db.sql'
       nointro:
