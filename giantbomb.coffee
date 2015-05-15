@@ -19,7 +19,8 @@ db.all 'select name from Game', (err, games) ->
         query: game.name
     , (err, response, body) ->
       if not err and response.statusCode == 200
-        info = JSON.parse(body).results[0]
+        search = JSON.parse body
+        info = search.results[0]
         if info
           image = null
           if info.image

@@ -11,13 +11,13 @@ parser = new xml2js.Parser()
 fs.readdir dir, (err, files) ->
   files.forEach (file) ->
     filename = path.join dir, file
-    if not fs.existsSync(filename)
+    if not fs.existsSync filename
       return
     fs.readFile filename, (err, data) ->
       parser.parseString data, (err, result) ->
         longConsoleName = result.datafile.header[0].description[0]
         [[], noIntroName, company, [], consoleName] = longConsoleName.match ///
-          ((. * ? ) \s - \s(? : (. * ) \s - \s)? (. * )) Parent - Clone
+          ((. * ? ) \s - \s(? : (. * ) \s - \s)? (. * ))\sParent-Clone
         ///
 
         db.run 'insert or ignore into Company (name) values (?)', company
