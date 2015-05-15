@@ -1,0 +1,894 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title> Reviews and News Articles - GameRankings</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<meta name="description" content="GameRankings browse/search engine shows games review scores from around the net." />
+
+<link href="/css/gr_default.20131202.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+
+<meta name="dwPageParams" content="{&quot;siteid&quot;:21,&quot;ptid&quot;:&quot;6056&quot;,&quot;onid&quot;:37,&quot;oid&quot;:&quot;6056-37-19--&quot;,&quot;edid&quot;:107,&quot;pguid&quot;:&quot;b24a971ad7db4c8188f6c96d9a32e38a&quot;,&quot;url&quot;:&quot;http:\/\/www.gamerankings.com\/browse.html?numrev=0&amp;sort=1&amp;page=95&quot;,&quot;ts&quot;:1431031799}" />
+<meta name="omPageParams" content="{&quot;rsids&quot;:&quot;cbsigamerankingssite,cbsicbsiall&quot;,&quot;rsids_dev&quot;:&quot;cbsigamerankingssite-dev,cnetcbsiall-dev&quot;,&quot;brand&quot;:&quot;Gamerankings&quot;,&quot;sid&quot;:&quot;gamerankings&quot;,&quot;is_dev&quot;:false,&quot;marketing_cloud_id&quot;:&quot;10D31225525FF5790A490D4D@AdobeOrg&quot;,&quot;context&quot;:{&quot;game_title&quot;:null,&quot;page_type_id&quot;:&quot;6056&quot;,&quot;platform&quot;:null,&quot;esrb&quot;:null,&quot;genre&quot;:null,&quot;page_type&quot;:&quot;search&quot;,&quot;game_id&quot;:null,&quot;user_status&quot;:false,&quot;content_id&quot;:null}}" />
+<meta id="ad-settings" itemprop="ad-settings" content="{&quot;script&quot;:&quot;\/\/www.googletagservices.com\/tag\/js\/gpt.js&quot;,&quot;target_params&quot;:{&quot;ptype&quot;:&quot;6056&quot;,&quot;vguid&quot;:&quot;b24a971a-d7db-44c8-188f-6c96d9a32e38&quot;},&quot;unit_name&quot;:&quot;\/8264\/aw-gamerankings\/searchresults\/home&quot;,&quot;mapped_units&quot;:{&quot;mpu_top&quot;:{&quot;size&quot;:[[300,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;tower_top&quot;:{&quot;size&quot;:[[160,600]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}}}}" />
+
+<script type="text/javascript">var _gaq = _gaq || [];  _gaq.push(['nT._setAccount', 'UA-27653683-1']);  _gaq.push(['nT._setAllowLinker', true]); _gaq.push(['nT._setSampleRate', '1']); _gaq.push(['nT._trackPageview']); _gaq.push(['_setAccount', 'UA-22577913-9']); _gaq.push(['_setCustomVar',1,'PageType','6056',3]); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = 'http://www' + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script></head>
+<body>
+<div id="container">
+
+	<div id="header">
+		<div id="logo">
+			<a href="/"><img src="http://img.gamefaqs.net/images/v9_clear.gif" alt="GameRankings" /></a>
+		</div>
+	</div>
+	<div id="searchbox">
+		<form id="search" method="get" action="/browse.html">
+		<label for="searchtextbox"><a href="/browse.html">Search:</a></label><input type="text" id="searchtextbox" name="search" value="" class="text" /><input type="hidden" name="numrev" value="3" /><select id="site" name="site"><option value="" selected>All Platforms</option><option value="3ds">3DS</option><option value="dreamcast">Dreamcast</option><option value="ds">DS</option><option value="gameboy">Game Boy</option><option value="gba">Game Boy Advance</option><option value="gbc">Game Boy Color</option><option value="gamecube">GameCube</option><option value="genesis">Genesis</option><option value="iphone">iPhone/iPod</option><option value="mac">Macintosh</option><option value="mobile">Mobile</option><option value="ngage">N-Gage</option><option value="n64">Nintendo 64</option><option value="pc">PC</option><option value="ps">PlayStation</option><option value="ps2">PlayStation 2</option><option value="ps3">PlayStation 3</option><option value="ps4">PlayStation 4</option><option value="vita">PlayStation Vita</option><option value="psp">PSP</option><option value="saturn">Saturn</option><option value="segacd">Sega CD</option><option value="snes">SNES</option><option value="wii">Wii</option><option value="wii-u">Wii U</option><option value="xbox">Xbox</option><option value="xbox360">Xbox 360</option><option value="xboxone">Xbox One</option></select><button type="submit">go</button>
+		</form>
+	</div>
+	<div id="quicknav">
+		<p>
+			<a href="/">Home</a>
+			<a href="/browse.html">All-Time Best</a>
+			<a href="/browse.html?sort=1">All-Time Worst</a>
+			<a href="/sites/index.html">Sites</a>
+			<a href="/help.html">Help</a>
+		</p>
+	</div>
+	<div id="platformlist">
+		<div class="nav">
+			<b>Platforms:</b>
+			<a href="/3ds/index.html">3DS</a> |
+			<a href="/iphone/index.html">iPhone</a> |
+			<a href="/pc/index.html">PC</a> |
+			<a href="/ps3/index.html">PS3</a> |
+			<a href="/ps4/index.html">PS4</a> |
+			<a href="/vita/index.html">Vita</a> |
+			<a href="/wii-u/index.html">Wii U</a> |
+			<a href="/xbox360/index.html">Xbox 360</a> |
+			<a href="/xboxone/index.html">Xbox One</a> |
+			<a href="/browse.html">All&nbsp;Systems</a>
+		</div>
+		<div class="jumper">
+			<form id="sys" action="/search/go.php" method="get">
+				<select id="jumpmenu" name="sys" onchange="location=options[selectedIndex].value;"><option value="/browse.html" selected="selected">Platform Jumper</option><option value="/3ds/index.html">3DS</option><option value="/dreamcast/index.html">Dreamcast</option><option value="/ds/index.html">DS</option><option value="/gameboy/index.html">Game Boy</option><option value="/gba/index.html">Game Boy Advance</option><option value="/gbc/index.html">Game Boy Color</option><option value="/gamecube/index.html">GameCube</option><option value="/genesis/index.html">Genesis</option><option value="/iphone/index.html">iPhone/iPod</option><option value="/mac/index.html">Macintosh</option><option value="/mobile/index.html">Mobile</option><option value="/ngage/index.html">N-Gage</option><option value="/n64/index.html">Nintendo 64</option><option value="/pc/index.html">PC</option><option value="/ps/index.html">PlayStation</option><option value="/ps2/index.html">PlayStation 2</option><option value="/ps3/index.html">PlayStation 3</option><option value="/ps4/index.html">PlayStation 4</option><option value="/vita/index.html">PlayStation Vita</option><option value="/psp/index.html">PSP</option><option value="/saturn/index.html">Saturn</option><option value="/segacd/index.html">Sega CD</option><option value="/snes/index.html">SNES</option><option value="/wii/index.html">Wii</option><option value="/wii-u/index.html">Wii U</option><option value="/xbox/index.html">Xbox</option><option value="/xbox360/index.html">Xbox 360</option><option value="/xboxone/index.html">Xbox One</option></select><button type="submit">go</button>
+			</form>
+			<script type="text/javascript">document.getElementById('sys').getElementsByTagName('button')[0].style.display="none";</script>
+		</div>
+	</div>
+
+	<div id="content">
+<div class="head"><h1>Browse and Search Games</h1></div>
+
+<div id="sky_col_wrap">
+	<div id="main_col_wrap">
+		<div id="main_col">
+			<div class="hub_nav">
+	<div class="box_tl"><div class="box_bl"><div class="box_tr"><div class="box_br">
+		<div class="box_body">
+		<form method="get" action="/browse.html">
+			<h1>Game Search/Browse</h1>
+			Platform: <select name="site" size=1><option label="All Platforms" value="" selected="selected">All Platforms</option>
+<option label="3DS" value="3ds">3DS</option>
+<option label="Dreamcast" value="dreamcast">Dreamcast</option>
+<option label="DS" value="ds">DS</option>
+<option label="Game Boy" value="gameboy">Game Boy</option>
+<option label="Game Boy Advance" value="gba">Game Boy Advance</option>
+<option label="Game Boy Color" value="gbc">Game Boy Color</option>
+<option label="GameCube" value="gamecube">GameCube</option>
+<option label="Genesis" value="genesis">Genesis</option>
+<option label="iOS (iPhone/iPad)" value="iphone">iOS (iPhone/iPad)</option>
+<option label="Macintosh" value="mac">Macintosh</option>
+<option label="Mobile" value="mobile">Mobile</option>
+<option label="N-Gage" value="ngage">N-Gage</option>
+<option label="Nintendo 64" value="n64">Nintendo 64</option>
+<option label="Ouya" value="ouya">Ouya</option>
+<option label="PC" value="pc">PC</option>
+<option label="PlayStation" value="ps">PlayStation</option>
+<option label="PlayStation 2" value="ps2">PlayStation 2</option>
+<option label="PlayStation 3" value="ps3">PlayStation 3</option>
+<option label="PlayStation 4" value="ps4">PlayStation 4</option>
+<option label="PlayStation Vita" value="vita">PlayStation Vita</option>
+<option label="PSP" value="psp">PSP</option>
+<option label="Saturn" value="saturn">Saturn</option>
+<option label="Sega CD" value="segacd">Sega CD</option>
+<option label="Super Nintendo" value="snes">Super Nintendo</option>
+<option label="Wii" value="wii">Wii</option>
+<option label="Wii U" value="wii-u">Wii U</option>
+<option label="Xbox" value="xbox">Xbox</option>
+<option label="Xbox 360" value="xbox360">Xbox 360</option>
+<option label="Xbox One" value="xboxone">Xbox One</option>
+</select>
+			Category: <select name="cat" size=1><option label=" -- All Categories --" value="0" selected="selected"> -- All Categories --</option>
+<option label="Action " value="54">Action </option>
+<option label="Action &gt;&gt; Arcade " value="289">Action &gt;&gt; Arcade </option>
+<option label="Action &gt;&gt; Beat-'Em-Up " value="318">Action &gt;&gt; Beat-'Em-Up </option>
+<option label="Action &gt;&gt; Beat-'Em-Up &gt;&gt; 2D " value="160">Action &gt;&gt; Beat-'Em-Up &gt;&gt; 2D </option>
+<option label="Action &gt;&gt; Beat-'Em-Up &gt;&gt; 3D " value="216">Action &gt;&gt; Beat-'Em-Up &gt;&gt; 3D </option>
+<option label="Action &gt;&gt; Fighting " value="57">Action &gt;&gt; Fighting </option>
+<option label="Action &gt;&gt; Fighting &gt;&gt; 2D " value="86">Action &gt;&gt; Fighting &gt;&gt; 2D </option>
+<option label="Action &gt;&gt; Fighting &gt;&gt; 3D " value="87">Action &gt;&gt; Fighting &gt;&gt; 3D </option>
+<option label="Action &gt;&gt; General " value="250">Action &gt;&gt; General </option>
+<option label="Action &gt;&gt; Pinball " value="114">Action &gt;&gt; Pinball </option>
+<option label="Action &gt;&gt; Platformer " value="56">Action &gt;&gt; Platformer </option>
+<option label="Action &gt;&gt; Platformer &gt;&gt; 2D " value="84">Action &gt;&gt; Platformer &gt;&gt; 2D </option>
+<option label="Action &gt;&gt; Platformer &gt;&gt; 3D " value="85">Action &gt;&gt; Platformer &gt;&gt; 3D </option>
+<option label="Action &gt;&gt; Rhythm " value="63">Action &gt;&gt; Rhythm </option>
+<option label="Action &gt;&gt; Rhythm &gt;&gt; Dancing " value="158">Action &gt;&gt; Rhythm &gt;&gt; Dancing </option>
+<option label="Action &gt;&gt; Rhythm &gt;&gt; Music " value="159">Action &gt;&gt; Rhythm &gt;&gt; Music </option>
+<option label="Action &gt;&gt; Shooter " value="55">Action &gt;&gt; Shooter </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; First-Person " value="79">Action &gt;&gt; Shooter &gt;&gt; First-Person </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; First-Person &gt;&gt; Arcade " value="152">Action &gt;&gt; Shooter &gt;&gt; First-Person &gt;&gt; Arcade </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; First-Person &gt;&gt; Tactical " value="156">Action &gt;&gt; Shooter &gt;&gt; First-Person &gt;&gt; Tactical </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; Light Gun " value="239">Action &gt;&gt; Shooter &gt;&gt; Light Gun </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; Rail " value="81">Action &gt;&gt; Shooter &gt;&gt; Rail </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; Shoot-'Em-Up " value="313">Action &gt;&gt; Shooter &gt;&gt; Shoot-'Em-Up </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; Shoot-'Em-Up &gt;&gt; Horizontal " value="185">Action &gt;&gt; Shooter &gt;&gt; Shoot-'Em-Up &gt;&gt; Horizontal </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; Shoot-'Em-Up &gt;&gt; Top-Down " value="272">Action &gt;&gt; Shooter &gt;&gt; Shoot-'Em-Up &gt;&gt; Top-Down </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; Shoot-'Em-Up &gt;&gt; Vertical " value="83">Action &gt;&gt; Shooter &gt;&gt; Shoot-'Em-Up &gt;&gt; Vertical </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; Third-Person " value="80">Action &gt;&gt; Shooter &gt;&gt; Third-Person </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; Third-Person &gt;&gt; Arcade " value="182">Action &gt;&gt; Shooter &gt;&gt; Third-Person &gt;&gt; Arcade </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; Third-Person &gt;&gt; Tactical " value="187">Action &gt;&gt; Shooter &gt;&gt; Third-Person &gt;&gt; Tactical </option>
+<option label="Action Adventure " value="163">Action Adventure </option>
+<option label="Action Adventure &gt;&gt; General " value="290">Action Adventure &gt;&gt; General </option>
+<option label="Action Adventure &gt;&gt; Linear " value="293">Action Adventure &gt;&gt; Linear </option>
+<option label="Action Adventure &gt;&gt; Open-World " value="292">Action Adventure &gt;&gt; Open-World </option>
+<option label="Action Adventure &gt;&gt; Sandbox " value="291">Action Adventure &gt;&gt; Sandbox </option>
+<option label="Action Adventure &gt;&gt; Survival " value="164">Action Adventure &gt;&gt; Survival </option>
+<option label="Adventure " value="50">Adventure </option>
+<option label="Adventure &gt;&gt; 3D " value="77">Adventure &gt;&gt; 3D </option>
+<option label="Adventure &gt;&gt; 3D &gt;&gt; First-Person " value="190">Adventure &gt;&gt; 3D &gt;&gt; First-Person </option>
+<option label="Adventure &gt;&gt; 3D &gt;&gt; Third-Person " value="192">Adventure &gt;&gt; 3D &gt;&gt; Third-Person </option>
+<option label="Adventure &gt;&gt; General " value="251">Adventure &gt;&gt; General </option>
+<option label="Adventure &gt;&gt; Point-and-Click " value="295">Adventure &gt;&gt; Point-and-Click </option>
+<option label="Adventure &gt;&gt; Text " value="262">Adventure &gt;&gt; Text </option>
+<option label="Adventure &gt;&gt; Visual Novel " value="294">Adventure &gt;&gt; Visual Novel </option>
+<option label="Hardware " value="263">Hardware </option>
+<option label="Hardware &gt;&gt; Console " value="264">Hardware &gt;&gt; Console </option>
+<option label="Hardware &gt;&gt; General " value="265">Hardware &gt;&gt; General </option>
+<option label="Miscellaneous " value="49">Miscellaneous </option>
+<option label="Miscellaneous &gt;&gt; Application " value="277">Miscellaneous &gt;&gt; Application </option>
+<option label="Miscellaneous &gt;&gt; Board / Card Game " value="227">Miscellaneous &gt;&gt; Board / Card Game </option>
+<option label="Miscellaneous &gt;&gt; Compilation " value="233">Miscellaneous &gt;&gt; Compilation </option>
+<option label="Miscellaneous &gt;&gt; Demo Disc " value="280">Miscellaneous &gt;&gt; Demo Disc </option>
+<option label="Miscellaneous &gt;&gt; Edutainment " value="275">Miscellaneous &gt;&gt; Edutainment </option>
+<option label="Miscellaneous &gt;&gt; Exercise / Fitness " value="287">Miscellaneous &gt;&gt; Exercise / Fitness </option>
+<option label="Miscellaneous &gt;&gt; Gambling " value="113">Miscellaneous &gt;&gt; Gambling </option>
+<option label="Miscellaneous &gt;&gt; General " value="256">Miscellaneous &gt;&gt; General </option>
+<option label="Miscellaneous &gt;&gt; Party / Minigame " value="181">Miscellaneous &gt;&gt; Party / Minigame </option>
+<option label="Miscellaneous &gt;&gt; Trivia / Game Show " value="224">Miscellaneous &gt;&gt; Trivia / Game Show </option>
+<option label="Puzzle " value="173">Puzzle </option>
+<option label="Puzzle &gt;&gt; Action " value="282">Puzzle &gt;&gt; Action </option>
+<option label="Puzzle &gt;&gt; General " value="281">Puzzle &gt;&gt; General </option>
+<option label="Puzzle &gt;&gt; Hidden Object " value="286">Puzzle &gt;&gt; Hidden Object </option>
+<option label="Puzzle &gt;&gt; Logic " value="285">Puzzle &gt;&gt; Logic </option>
+<option label="Puzzle &gt;&gt; Matching " value="283">Puzzle &gt;&gt; Matching </option>
+<option label="Puzzle &gt;&gt; Stacking " value="284">Puzzle &gt;&gt; Stacking </option>
+<option label="Racing " value="47">Racing </option>
+<option label="Racing &gt;&gt; Arcade " value="314">Racing &gt;&gt; Arcade </option>
+<option label="Racing &gt;&gt; Arcade &gt;&gt; Automobile " value="232">Racing &gt;&gt; Arcade &gt;&gt; Automobile </option>
+<option label="Racing &gt;&gt; Arcade &gt;&gt; Futuristic " value="139">Racing &gt;&gt; Arcade &gt;&gt; Futuristic </option>
+<option label="Racing &gt;&gt; Arcade &gt;&gt; Other " value="235">Racing &gt;&gt; Arcade &gt;&gt; Other </option>
+<option label="Racing &gt;&gt; General " value="252">Racing &gt;&gt; General </option>
+<option label="Racing &gt;&gt; Simulation " value="315">Racing &gt;&gt; Simulation </option>
+<option label="Racing &gt;&gt; Simulation &gt;&gt; Automobile " value="138">Racing &gt;&gt; Simulation &gt;&gt; Automobile </option>
+<option label="Racing &gt;&gt; Simulation &gt;&gt; Other " value="274">Racing &gt;&gt; Simulation &gt;&gt; Other </option>
+<option label="Role-Playing " value="48">Role-Playing </option>
+<option label="Role-Playing &gt;&gt; Action RPG " value="73">Role-Playing &gt;&gt; Action RPG </option>
+<option label="Role-Playing &gt;&gt; General " value="257">Role-Playing &gt;&gt; General </option>
+<option label="Role-Playing &gt;&gt; Japanese-Style " value="71">Role-Playing &gt;&gt; Japanese-Style </option>
+<option label="Role-Playing &gt;&gt; Massively Multiplayer " value="75">Role-Playing &gt;&gt; Massively Multiplayer </option>
+<option label="Role-Playing &gt;&gt; Roguelike " value="296">Role-Playing &gt;&gt; Roguelike </option>
+<option label="Role-Playing &gt;&gt; Trainer " value="297">Role-Playing &gt;&gt; Trainer </option>
+<option label="Role-Playing &gt;&gt; Western-Style " value="72">Role-Playing &gt;&gt; Western-Style </option>
+<option label="Simulation " value="46">Simulation </option>
+<option label="Simulation &gt;&gt; Flight " value="68">Simulation &gt;&gt; Flight </option>
+<option label="Simulation &gt;&gt; Flight &gt;&gt; Civilian " value="157">Simulation &gt;&gt; Flight &gt;&gt; Civilian </option>
+<option label="Simulation &gt;&gt; Flight &gt;&gt; Combat " value="130">Simulation &gt;&gt; Flight &gt;&gt; Combat </option>
+<option label="Simulation &gt;&gt; General " value="255">Simulation &gt;&gt; General </option>
+<option label="Simulation &gt;&gt; Marine " value="317">Simulation &gt;&gt; Marine </option>
+<option label="Simulation &gt;&gt; Marine &gt;&gt; Civilian " value="126">Simulation &gt;&gt; Marine &gt;&gt; Civilian </option>
+<option label="Simulation &gt;&gt; Marine &gt;&gt; Combat " value="125">Simulation &gt;&gt; Marine &gt;&gt; Combat </option>
+<option label="Simulation &gt;&gt; Space " value="69">Simulation &gt;&gt; Space </option>
+<option label="Simulation &gt;&gt; Space &gt;&gt; Civilian " value="133">Simulation &gt;&gt; Space &gt;&gt; Civilian </option>
+<option label="Simulation &gt;&gt; Space &gt;&gt; Combat " value="132">Simulation &gt;&gt; Space &gt;&gt; Combat </option>
+<option label="Simulation &gt;&gt; Vehicle " value="316">Simulation &gt;&gt; Vehicle </option>
+<option label="Simulation &gt;&gt; Vehicle &gt;&gt; Civilian " value="298">Simulation &gt;&gt; Vehicle &gt;&gt; Civilian </option>
+<option label="Simulation &gt;&gt; Vehicle &gt;&gt; Combat " value="124">Simulation &gt;&gt; Vehicle &gt;&gt; Combat </option>
+<option label="Simulation &gt;&gt; Vehicle &gt;&gt; Train " value="259">Simulation &gt;&gt; Vehicle &gt;&gt; Train </option>
+<option label="Simulation &gt;&gt; Virtual " value="311">Simulation &gt;&gt; Virtual </option>
+<option label="Simulation &gt;&gt; Virtual &gt;&gt; Career " value="300">Simulation &gt;&gt; Virtual &gt;&gt; Career </option>
+<option label="Simulation &gt;&gt; Virtual &gt;&gt; Pet " value="299">Simulation &gt;&gt; Virtual &gt;&gt; Pet </option>
+<option label="Simulation &gt;&gt; Virtual &gt;&gt; Virtual Life " value="242">Simulation &gt;&gt; Virtual &gt;&gt; Virtual Life </option>
+<option label="Sports " value="43">Sports </option>
+<option label="Sports &gt;&gt; General " value="254">Sports &gt;&gt; General </option>
+<option label="Sports &gt;&gt; Individual " value="92">Sports &gt;&gt; Individual </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Athletics " value="231">Sports &gt;&gt; Individual &gt;&gt; Athletics </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Biking " value="103">Sports &gt;&gt; Individual &gt;&gt; Biking </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Billiards " value="112">Sports &gt;&gt; Individual &gt;&gt; Billiards </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Bowling " value="243">Sports &gt;&gt; Individual &gt;&gt; Bowling </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Combat " value="312">Sports &gt;&gt; Individual &gt;&gt; Combat </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Combat &gt;&gt; Boxing / Martial Arts " value="104">Sports &gt;&gt; Individual &gt;&gt; Combat &gt;&gt; Boxing / Martial Arts </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Combat &gt;&gt; Wrestling " value="93">Sports &gt;&gt; Individual &gt;&gt; Combat &gt;&gt; Wrestling </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Golf " value="98">Sports &gt;&gt; Individual &gt;&gt; Golf </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Golf &gt;&gt; Arcade " value="206">Sports &gt;&gt; Individual &gt;&gt; Golf &gt;&gt; Arcade </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Golf &gt;&gt; Sim " value="207">Sports &gt;&gt; Individual &gt;&gt; Golf &gt;&gt; Sim </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Horse Racing " value="278">Sports &gt;&gt; Individual &gt;&gt; Horse Racing </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Nature " value="108">Sports &gt;&gt; Individual &gt;&gt; Nature </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Nature &gt;&gt; Fishing " value="109">Sports &gt;&gt; Individual &gt;&gt; Nature &gt;&gt; Fishing </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Nature &gt;&gt; Hunting " value="110">Sports &gt;&gt; Individual &gt;&gt; Nature &gt;&gt; Hunting </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Other " value="246">Sports &gt;&gt; Individual &gt;&gt; Other </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Skate / Skateboard " value="102">Sports &gt;&gt; Individual &gt;&gt; Skate / Skateboard </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Ski / Snowboard " value="273">Sports &gt;&gt; Individual &gt;&gt; Ski / Snowboard </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Surf / Wakeboard " value="238">Sports &gt;&gt; Individual &gt;&gt; Surf / Wakeboard </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Tennis " value="101">Sports &gt;&gt; Individual &gt;&gt; Tennis </option>
+<option label="Sports &gt;&gt; Team " value="91">Sports &gt;&gt; Team </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Baseball " value="94">Sports &gt;&gt; Team &gt;&gt; Baseball </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Baseball &gt;&gt; Arcade " value="200">Sports &gt;&gt; Team &gt;&gt; Baseball &gt;&gt; Arcade </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Baseball &gt;&gt; Sim " value="201">Sports &gt;&gt; Team &gt;&gt; Baseball &gt;&gt; Sim </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Basketball " value="95">Sports &gt;&gt; Team &gt;&gt; Basketball </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Basketball &gt;&gt; Arcade " value="202">Sports &gt;&gt; Team &gt;&gt; Basketball &gt;&gt; Arcade </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Basketball &gt;&gt; Sim " value="203">Sports &gt;&gt; Team &gt;&gt; Basketball &gt;&gt; Sim </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Cricket " value="258">Sports &gt;&gt; Team &gt;&gt; Cricket </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Football " value="97">Sports &gt;&gt; Team &gt;&gt; Football </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Football &gt;&gt; Arcade " value="204">Sports &gt;&gt; Team &gt;&gt; Football &gt;&gt; Arcade </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Football &gt;&gt; Sim " value="205">Sports &gt;&gt; Team &gt;&gt; Football &gt;&gt; Sim </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Futuristic " value="107">Sports &gt;&gt; Team &gt;&gt; Futuristic </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Ice Hockey " value="99">Sports &gt;&gt; Team &gt;&gt; Ice Hockey </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Ice Hockey &gt;&gt; Arcade " value="208">Sports &gt;&gt; Team &gt;&gt; Ice Hockey &gt;&gt; Arcade </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Ice Hockey &gt;&gt; Sim " value="209">Sports &gt;&gt; Team &gt;&gt; Ice Hockey &gt;&gt; Sim </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Other " value="310">Sports &gt;&gt; Team &gt;&gt; Other </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Rugby " value="244">Sports &gt;&gt; Team &gt;&gt; Rugby </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Soccer " value="100">Sports &gt;&gt; Team &gt;&gt; Soccer </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Soccer &gt;&gt; Arcade " value="210">Sports &gt;&gt; Team &gt;&gt; Soccer &gt;&gt; Arcade </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Soccer &gt;&gt; Management " value="212">Sports &gt;&gt; Team &gt;&gt; Soccer &gt;&gt; Management </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Soccer &gt;&gt; Sim " value="211">Sports &gt;&gt; Team &gt;&gt; Soccer &gt;&gt; Sim </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Volleyball " value="105">Sports &gt;&gt; Team &gt;&gt; Volleyball </option>
+<option label="Strategy " value="45">Strategy </option>
+<option label="Strategy &gt;&gt; General " value="253">Strategy &gt;&gt; General </option>
+<option label="Strategy &gt;&gt; Management " value="60">Strategy &gt;&gt; Management </option>
+<option label="Strategy &gt;&gt; Management &gt;&gt; Business / Tycoon " value="220">Strategy &gt;&gt; Management &gt;&gt; Business / Tycoon </option>
+<option label="Strategy &gt;&gt; Management &gt;&gt; Government " value="123">Strategy &gt;&gt; Management &gt;&gt; Government </option>
+<option label="Strategy &gt;&gt; Real-Time " value="58">Strategy &gt;&gt; Real-Time </option>
+<option label="Strategy &gt;&gt; Real-Time &gt;&gt; Command " value="302">Strategy &gt;&gt; Real-Time &gt;&gt; Command </option>
+<option label="Strategy &gt;&gt; Real-Time &gt;&gt; Defense " value="303">Strategy &gt;&gt; Real-Time &gt;&gt; Defense </option>
+<option label="Strategy &gt;&gt; Real-Time &gt;&gt; General " value="301">Strategy &gt;&gt; Real-Time &gt;&gt; General </option>
+<option label="Strategy &gt;&gt; Real-Time &gt;&gt; MOBA " value="288">Strategy &gt;&gt; Real-Time &gt;&gt; MOBA </option>
+<option label="Strategy &gt;&gt; Real-Time &gt;&gt; Tactics " value="304">Strategy &gt;&gt; Real-Time &gt;&gt; Tactics </option>
+<option label="Strategy &gt;&gt; Turn-Based " value="59">Strategy &gt;&gt; Turn-Based </option>
+<option label="Strategy &gt;&gt; Turn-Based &gt;&gt; 4X " value="306">Strategy &gt;&gt; Turn-Based &gt;&gt; 4X </option>
+<option label="Strategy &gt;&gt; Turn-Based &gt;&gt; Artillery " value="307">Strategy &gt;&gt; Turn-Based &gt;&gt; Artillery </option>
+<option label="Strategy &gt;&gt; Turn-Based &gt;&gt; Card Battle " value="240">Strategy &gt;&gt; Turn-Based &gt;&gt; Card Battle </option>
+<option label="Strategy &gt;&gt; Turn-Based &gt;&gt; General " value="305">Strategy &gt;&gt; Turn-Based &gt;&gt; General </option>
+<option label="Strategy &gt;&gt; Turn-Based &gt;&gt; Tactics " value="308">Strategy &gt;&gt; Turn-Based &gt;&gt; Tactics </option>
+</select><br />
+			Released: <select name="year" size=1><option label="at any time" value="0" selected="selected">at any time</option>
+<option label="in the past" value="1">in the past</option>
+<option label="in the last month" value="2">in the last month</option>
+<option label="in the last three months" value="3">in the last three months</option>
+<option label="in the last six months" value="4">in the last six months</option>
+<option label="in the last year" value="5">in the last year</option>
+<option label="in the future" value="6">in the future</option>
+<option label="in 2015" value="2015">in 2015</option>
+<option label="in 2014" value="2014">in 2014</option>
+<option label="in 2013" value="2013">in 2013</option>
+<option label="in 2012" value="2012">in 2012</option>
+<option label="in 2011" value="2011">in 2011</option>
+<option label="in 2010" value="2010">in 2010</option>
+<option label="in 2009" value="2009">in 2009</option>
+<option label="in 2008" value="2008">in 2008</option>
+<option label="in 2007" value="2007">in 2007</option>
+<option label="in 2006" value="2006">in 2006</option>
+<option label="in 2005" value="2005">in 2005</option>
+<option label="in 2004" value="2004">in 2004</option>
+<option label="in 2003" value="2003">in 2003</option>
+<option label="in 2002" value="2002">in 2002</option>
+<option label="in 2001" value="2001">in 2001</option>
+<option label="in 2000" value="2000">in 2000</option>
+<option label="in 1999" value="1999">in 1999</option>
+<option label="in 1998" value="1998">in 1998</option>
+<option label="in 1997" value="1997">in 1997</option>
+<option label="in 1996" value="1996">in 1996</option>
+<option label="in 1995" value="1995">in 1995</option>
+<option label="in 1994" value="1994">in 1994</option>
+<option label="in 1993" value="1993">in 1993</option>
+<option label="in 1992" value="1992">in 1992</option>
+<option label="in 1991" value="1991">in 1991</option>
+<option label="in 1990" value="1990">in 1990</option>
+<option label="in 1989" value="1989">in 1989</option>
+<option label="in 1988" value="1988">in 1988</option>
+<option label="in 1987" value="1987">in 1987</option>
+<option label="in 1986" value="1986">in 1986</option>
+<option label="in 1985" value="1985">in 1985</option>
+<option label="in 1984" value="1984">in 1984</option>
+<option label="in 1983" value="1983">in 1983</option>
+<option label="in 1982" value="1982">in 1982</option>
+<option label="in 1981" value="1981">in 1981</option>
+<option label="in 1980" value="1980">in 1980</option>
+<option label="in 1979" value="1979">in 1979</option>
+<option label="in 1978" value="1978">in 1978</option>
+<option label="in 1977" value="1977">in 1977</option>
+<option label="in 1976" value="1976">in 1976</option>
+<option label="in 1975" value="1975">in 1975</option>
+<option label="in 1974" value="1974">in 1974</option>
+<option label="in 1973" value="1973">in 1973</option>
+<option label="in 1972" value="1972">in 1972</option>
+<option label="in 1971" value="1971">in 1971</option>
+<option label="in 1970" value="1970">in 1970</option>
+</select>
+			With At Least: <select name="numrev" size=1><option label="0 reviews" value="3">0 reviews</option>
+<option label="1 review" value="2">1 review</option>
+<option label="5 reviews" value="4">5 reviews</option>
+<option label="10 reviews" value="1">10 reviews</option>
+<option label="20 reviews" value="0" selected="selected">20 reviews</option>
+</select>
+			Sorted: <select name="sort" size=1><option label="best to worst" value="0">best to worst</option>
+<option label="worst to best" value="1" selected="selected">worst to best</option>
+<option label="A-Z" value="2">A-Z</option>
+<option label="Z-A" value="3">Z-A</option>
+<option label="newest to oldest" value="4">newest to oldest</option>
+<option label="oldest to newest" value="5">oldest to newest</option>
+</select><br />
+			Starts With: <select name="letter" size=1><option label="-" value="" selected="selected">-</option>
+<option label="A" value="A">A</option>
+<option label="B" value="B">B</option>
+<option label="C" value="C">C</option>
+<option label="D" value="D">D</option>
+<option label="E" value="E">E</option>
+<option label="F" value="F">F</option>
+<option label="G" value="G">G</option>
+<option label="H" value="H">H</option>
+<option label="I" value="I">I</option>
+<option label="J" value="J">J</option>
+<option label="K" value="K">K</option>
+<option label="L" value="L">L</option>
+<option label="M" value="M">M</option>
+<option label="N" value="N">N</option>
+<option label="O" value="O">O</option>
+<option label="P" value="P">P</option>
+<option label="Q" value="Q">Q</option>
+<option label="R" value="R">R</option>
+<option label="S" value="S">S</option>
+<option label="T" value="T">T</option>
+<option label="U" value="U">U</option>
+<option label="V" value="V">V</option>
+<option label="W" value="W">W</option>
+<option label="X" value="X">X</option>
+<option label="Y" value="Y">Y</option>
+<option label="Z" value="Z">Z</option>
+<option label="#" value="_">#</option>
+</select>
+			Search: <input type="text" name="search" size="40" value="" />
+			<input type="submit" value="Browse/Search" />
+		</form>
+		</div>
+	</div></div></div></div>
+</div>							
+<div class="pod">
+	<div class="head"><h1>Game List</h1></div>
+	<div class="body">
+		<table>
+		<colgroup>
+		<col class="date" />
+		<col class="system_short" />
+		<col class="title" />
+		<col class="game" />
+		</colgroup>
+
+			<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/2/9/2/97292_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PS3</td>
+		<td><a href="/ps3/946536-nba-2k9/index.html">NBA 2K9</a><br />
+		Visual Concepts/2K Sports, 2008		</td>
+		<td><span style="font-size: 35px"><b>82.44%</b></span><br clear="left" />27 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/8/6/7/109867_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>X360</td>
+		<td><a href="/xbox360/958271-splitsecond/index.html">Split/Second</a><br />
+		Black Rock Studio/Disney Interactive Studios, 2010		</td>
+		<td><span style="font-size: 35px"><b>82.45%</b></span><br clear="left" />55 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/9/4/7/14947_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>XBOX</td>
+		<td><a href="/xbox/535996-nascar-thunder-2002/index.html">NASCAR Thunder 2002</a><br />
+		EA Tiburon/EA Sports, 2001		</td>
+		<td><span style="font-size: 35px"><b>82.45%</b></span><br clear="left" />22 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/0/6/7/68067_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>X360</td>
+		<td><a href="/xbox360/928101-test-drive-unlimited/index.html">Test Drive Unlimited</a><br />
+		Eden Studios/Atari, 2006		</td>
+		<td><span style="font-size: 35px"><b>82.45%</b></span><br clear="left" />84 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/9/6/2/102962_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>DS</td>
+		<td><a href="/ds/952300-henry-hatsworth-in-the-puzzling-adventure/index.html">Henry Hatsworth in the Puzzling Adventure</a><br />
+		EA Tiburon/Electronic Arts, 2009		</td>
+		<td><span style="font-size: 35px"><b>82.45%</b></span><br clear="left" />38 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/9/4/2/169942_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PC</td>
+		<td><a href="/pc/611468-bejeweled-3/index.html">Bejeweled 3</a><br />
+		PopCap, 2010		</td>
+		<td><span style="font-size: 35px"><b>82.45%</b></span><br clear="left" />20 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/1/9/3/94193_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PC</td>
+		<td><a href="/pc/944784-red-faction-guerrilla/index.html">Red Faction: Guerrilla</a><br />
+		Volition Inc./THQ, 2009		</td>
+		<td><span style="font-size: 35px"><b>82.45%</b></span><br clear="left" />20 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/9/4/3/71943_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>GBA</td>
+		<td><a href="/gba/930369-final-fantasy-v-advance/index.html">Final Fantasy V Advance</a><br />
+		TOSE/Square Enix, 2006		</td>
+		<td><span style="font-size: 35px"><b>82.45%</b></span><br clear="left" />24 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/4/2/6/11426_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PC</td>
+		<td><a href="/pc/371215-divine-divinity/index.html">Divine Divinity</a><br />
+		Larian Studios/cdv Software, 2002		</td>
+		<td><span style="font-size: 35px"><b>82.45%</b></span><br clear="left" />30 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/0/6/1/15061_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PS2</td>
+		<td><a href="/ps2/529441-pro-race-driver/index.html">Pro Race Driver</a><br />
+		Codemasters, 2002		</td>
+		<td><span style="font-size: 35px"><b>82.45%</b></span><br clear="left" />41 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/1/1/1/6111_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PC</td>
+		<td><a href="/pc/198289-pharaoh/index.html">Pharaoh</a><br />
+		Impressions Games/Sierra Entertainment, 1999		</td>
+		<td><span style="font-size: 35px"><b>82.45%</b></span><br clear="left" />29 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/8/9/5/114895_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PC</td>
+		<td><a href="/pc/961265-/index.html">Tales of Monkey Island Chapter 5: Rise of the Pirate God</a><br />
+		Telltale Games, 2009		</td>
+		<td><span style="font-size: 35px"><b>82.45%</b></span><br clear="left" />32 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/9/7/8/113978_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PS3</td>
+		<td><a href="/ps3/960612-buzz-quiz-world/index.html">Buzz! Quiz World</a><br />
+		Relentless Software/SCEA, 2009		</td>
+		<td><span style="font-size: 35px"><b>82.46%</b></span><br clear="left" />24 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/8/9/0/114890_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PC</td>
+		<td><a href="/pc/961262-/index.html">Tales of Monkey Island Chapter 4: The Trial and Execution of Guybrush Threepwood</a><br />
+		Telltale Games, 2009		</td>
+		<td><span style="font-size: 35px"><b>82.46%</b></span><br clear="left" />26 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/8/3/8/59838_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>XBOX</td>
+		<td><a href="/xbox/920478-nba-live-2005/index.html">NBA Live 2005</a><br />
+		EA Canada/EA Sports, 2004		</td>
+		<td><span style="font-size: 35px"><b>82.46%</b></span><br clear="left" />32 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/6/2/1/12621_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PC</td>
+		<td><a href="/pc/914567-battlefield-1942-secret-weapons-of-wwii/index.html">Battlefield 1942: Secret Weapons of WWII</a><br />
+		Digital Illusions/Electronic Arts, 2003		</td>
+		<td><span style="font-size: 35px"><b>82.47%</b></span><br clear="left" />31 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/5/0/4/94504_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PS3</td>
+		<td><a href="/ps3/944937-pure/index.html">Pure</a><br />
+		Black Rock Studio/Disney Interactive Studios, 2008		</td>
+		<td><span style="font-size: 35px"><b>82.47%</b></span><br clear="left" />34 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/3/5/9/15359_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>XBOX</td>
+		<td><a href="/xbox/533807-sega-gt-2002/index.html">Sega GT 2002</a><br />
+		Wow Entertainment/Sega, 2002		</td>
+		<td><span style="font-size: 35px"><b>82.47%</b></span><br clear="left" />46 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/1/3/7/74137_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>X360</td>
+		<td><a href="/xbox360/932239-rockstar-games-presents-table-tennis/index.html">Rockstar Games presents Table Tennis</a><br />
+		Rockstar San Diego/Take-Two Interactive, 2006		</td>
+		<td><span style="font-size: 35px"><b>82.48%</b></span><br clear="left" />85 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/7/6/9/75769_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>X360</td>
+		<td><a href="/xbox360/932932-college-hoops-2k7/index.html">College Hoops 2K7</a><br />
+		2K Sports, 2006		</td>
+		<td><span style="font-size: 35px"><b>82.48%</b></span><br clear="left" />21 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/7/9/9/13799_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PS2</td>
+		<td><a href="/ps2/478899-splashdown/index.html">Splashdown</a><br />
+		Rainbow Studios/Atari, 2001		</td>
+		<td><span style="font-size: 35px"><b>82.48%</b></span><br clear="left" />41 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/2/4/2/19242_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>XBOX</td>
+		<td><a href="/xbox/562267-otogi-myth-of-demons/index.html">Otogi: Myth of Demons</a><br />
+		From Software/Sega, 2003		</td>
+		<td><span style="font-size: 35px"><b>82.48%</b></span><br clear="left" />67 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/4/0/4/129404_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PS3</td>
+		<td><a href="/ps3/975239-enslaved-odyssey-to-the-west/index.html">Enslaved: Odyssey to the West</a><br />
+		Ninja Theory/Namco Bandai Games, 2010		</td>
+		<td><span style="font-size: 35px"><b>82.48%</b></span><br clear="left" />31 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/5/3/9/164539_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PS3</td>
+		<td><a href="/ps3/652997-tekken-tag-tournament-2/index.html">Tekken Tag Tournament 2</a><br />
+		Namco Bandai Games, 2012		</td>
+		<td><span style="font-size: 35px"><b>82.49%</b></span><br clear="left" />35 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/6/6/5/91665_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PS3</td>
+		<td><a href="/ps3/943354-motorstorm-pacific-rift/index.html">MotorStorm: Pacific Rift</a><br />
+		Evolution Studios/SCEA, 2008		</td>
+		<td><span style="font-size: 35px"><b>82.49%</b></span><br clear="left" />58 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/4/6/9/56469_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PC</td>
+		<td><a href="/pc/917994-dangerous-waters/index.html">Dangerous Waters</a><br />
+		Sonalysts/Battlefront.com, 2005		</td>
+		<td><span style="font-size: 35px"><b>82.50%</b></span><br clear="left" />25 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/3/2/4/57324_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PS2</td>
+		<td><a href="/ps2/921360-toca-race-driver-2-the-ultimate-racing-simulator/index.html">TOCA Race Driver 2: The Ultimate Racing Simulator</a><br />
+		Codemasters, 2004		</td>
+		<td><span style="font-size: 35px"><b>82.50%</b></span><br clear="left" />28 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/7/9/1/353791_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PC</td>
+		<td><a href="/pc/760390-resident-evil-4-ultimate-hd-edition/index.html">Resident Evil 4: Ultimate HD Edition</a><br />
+		Capcom, 2014		</td>
+		<td><span style="font-size: 35px"><b>82.50%</b></span><br clear="left" />20 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/3/4/1/144341_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>X360</td>
+		<td><a href="/xbox360/989132-dead-rising-2-case-zero/index.html">Dead Rising 2: Case Zero</a><br />
+		Blue Castle Games/Capcom, 2010		</td>
+		<td><span style="font-size: 35px"><b>82.50%</b></span><br clear="left" />41 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/5/9/7/52597_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>XBOX</td>
+		<td><a href="/xbox/914951-fifa-soccer-2004/index.html">FIFA Soccer 2004</a><br />
+		EA Canada/EA Sports, 2003		</td>
+		<td><span style="font-size: 35px"><b>82.50%</b></span><br clear="left" />33 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/8/7/1/58871_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PS2</td>
+		<td><a href="/ps2/919983-hitman-blood-money/index.html">Hitman: Blood Money</a><br />
+		Io Interactive/Eidos Interactive, 2006		</td>
+		<td><span style="font-size: 35px"><b>82.51%</b></span><br clear="left" />41 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/9/9/6/13996_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>GC</td>
+		<td><a href="/gamecube/515938-wave-race-blue-storm/index.html">Wave Race: Blue Storm</a><br />
+		Nintendo Software Technology/Nintendo, 2001		</td>
+		<td><span style="font-size: 35px"><b>82.51%</b></span><br clear="left" />53 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/1/3/4/68134_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>X360</td>
+		<td><a href="/xbox360/928301-unreal-tournament-iii/index.html">Unreal Tournament III</a><br />
+		Epic Games/Midway, 2008		</td>
+		<td><span style="font-size: 35px"><b>82.52%</b></span><br clear="left" />46 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/8/3/9/10839_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>N64</td>
+		<td><a href="/n64/366269-spider-man/index.html">Spider-Man</a><br />
+		Edge of Reality/Activision, 2000		</td>
+		<td><span style="font-size: 35px"><b>82.52%</b></span><br clear="left" />21 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/4/2/7/68427_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PS2</td>
+		<td><a href="/ps2/928299-nba-2k6/index.html">NBA 2K6</a><br />
+		Visual Concepts/2K Sports, 2005		</td>
+		<td><span style="font-size: 35px"><b>82.53%</b></span><br clear="left" />31 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/3/1/9/150319_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PS3</td>
+		<td><a href="/ps3/995078-disgaea-4-a-promise-unforgotten/index.html">Disgaea 4: A Promise Unforgotten</a><br />
+		Nippon Ichi Software, 2011		</td>
+		<td><span style="font-size: 35px"><b>82.53%</b></span><br clear="left" />37 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/7/3/7/174737_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>X360</td>
+		<td><a href="/xbox360/689059-the-elder-scrolls-v-skyrim-dragonborn/index.html">The Elder Scrolls V: Skyrim - Dragonborn</a><br />
+		Bethesda Game Studios/Bethesda Softworks, 2012		</td>
+		<td><span style="font-size: 35px"><b>82.54%</b></span><br clear="left" />26 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/5/2/8/9528_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PS</td>
+		<td><a href="/ps/340750-nba-live-2001/index.html">NBA Live 2001</a><br />
+		NuFX/Electronic Arts, 2000		</td>
+		<td><span style="font-size: 35px"><b>82.55%</b></span><br clear="left" />21 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/2/9/4/85294_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>DS</td>
+		<td><a href="/ds/944899-grid/index.html">GRID</a><br />
+		Firebrand Games/Codemasters, 2008		</td>
+		<td><span style="font-size: 35px"><b>82.55%</b></span><br clear="left" />20 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/6/6/5/113665_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>X360</td>
+		<td><a href="/xbox360/960513-metal-gear-rising-revengeance/index.html">Metal Gear Rising: Revengeance</a><br />
+		PlatinumGames/Konami, 2013		</td>
+		<td><span style="font-size: 35px"><b>82.56%</b></span><br clear="left" />31 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/5/1/0/3510_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PS2</td>
+		<td><a href="/ps2/197307-fifa-2001/index.html">FIFA 2001</a><br />
+		EA Canada/Electronic Arts, 2000		</td>
+		<td><span style="font-size: 35px"><b>82.57%</b></span><br clear="left" />30 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/9/1/9/233919_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PS3</td>
+		<td><a href="/ps3/669288-call-of-duty-black-ops-ii/index.html">Call of Duty: Black Ops II</a><br />
+		Treyarch/Activision, 2012		</td>
+		<td><span style="font-size: 35px"><b>82.57%</b></span><br clear="left" />21 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/7/5/5/68755_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>XBOX</td>
+		<td><a href="/xbox/930878-fight-night-round-3/index.html">Fight Night Round 3</a><br />
+		EA Chicago/EA Sports, 2006		</td>
+		<td><span style="font-size: 35px"><b>82.57%</b></span><br clear="left" />28 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/2/6/3/181263_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>X360</td>
+		<td><a href="/xbox360/632306-metro-last-light/index.html">Metro: Last Light</a><br />
+		4A Games/Deep Silver, 2013		</td>
+		<td><span style="font-size: 35px"><b>82.57%</b></span><br clear="left" />21 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/1/3/9/67139_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PSP</td>
+		<td><a href="/psp/927401-x-men-legends-ii-rise-of-apocalypse/index.html">X-Men Legends II: Rise of Apocalypse</a><br />
+		Vicarious Visions/Activision, 2005		</td>
+		<td><span style="font-size: 35px"><b>82.57%</b></span><br clear="left" />40 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/9/9/3/89993_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>DS</td>
+		<td><a href="/ds/942380-viva-pinata-pocket-paradise/index.html">Viva Pinata: Pocket Paradise</a><br />
+		Rare Ltd./THQ, 2008		</td>
+		<td><span style="font-size: 35px"><b>82.58%</b></span><br clear="left" />31 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/3/7/3/146373_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>DS</td>
+		<td><a href="/ds/991129-super-scribblenauts/index.html">Super Scribblenauts</a><br />
+		5TH Cell/Warner Bros. Interactive Entertainment, 2010		</td>
+		<td><span style="font-size: 35px"><b>82.58%</b></span><br clear="left" />42 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/8/7/1/134871_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>X360</td>
+		<td><a href="/xbox360/980488-puzzle-quest-2/index.html">Puzzle Quest 2</a><br />
+		Infinite Interactive/D3Publisher, 2010		</td>
+		<td><span style="font-size: 35px"><b>82.58%</b></span><br clear="left" />24 Reviews</td>
+		</tr>
+				<tr>
+		<td>
+			<img src="http://img.gamefaqs.net/box/5/5/3/57553_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>GC</td>
+		<td><a href="/gamecube/919043-mega-man-anniversary-collection/index.html">Mega Man Anniversary Collection</a><br />
+		Atomic Planet Entertainment/Capcom, 2004		</td>
+		<td><span style="font-size: 35px"><b>82.58%</b></span><br clear="left" />32 Reviews</td>
+		</tr>
+				<tr class="even">
+		<td>
+			<img src="http://img.gamefaqs.net/box/6/7/4/72674_thumb.jpg" alt="" align="left" style="width: 40px; padding: 0px 4px 0px 4px" />		</td>
+		
+		<td>PSP</td>
+		<td><a href="/psp/930973-outrun-2006-coast-2-coast/index.html">OutRun 2006: Coast 2 Coast</a><br />
+		Sumo Digital/Sega, 2006		</td>
+		<td><span style="font-size: 35px"><b>82.59%</b></span><br clear="left" />34 Reviews</td>
+		</tr>
+		
+		</table>
+	</div>
+</div>
+
+<div class="pod">
+	<div class="body">
+					<a href="/browse.html?page=94&amp;sort=1">Previous Page</a>
+							<a href="/browse.html?page=96&amp;sort=1">Next Page</a>
+			</div>
+</div>
+
+					</div>
+	</div>
+	<div id="side_col_wrap">
+		<div id="side_col">
+			<div class="ad ad_tower_top" id="tower_top-wrap">
+    <div class="ad_wrap" id="tower_top">
+    	<script type="text/javascript">(function (c) { "use strict";  var cmd = c.displayAdCmd || []; cmd.push('tower_top'); c.displayAdCmd = cmd; })(this); </script>
+	</div>
+</div>
+		</div>
+	</div>
+</div>
+
+	</div>
+	<div id="footer">
+		<div id="sitenav">
+			<p>
+			<a href="http://www.gamespot.com/">GameSpot</a> | <a href="http://www.gamefaqs.com/">GameFAQs</a> |	<a href="http://www.metacritic.com">Metacritic</a>
+			</p>
+		</div>
+		<div id="broadnav">
+			<p>
+				&copy; 2015 CBS Interactive Inc. All rights reserved.
+				<a href="http://legalterms.cbsinteractive.com/privacy">Privacy Policy</a> | 
+				<a href="http://legalterms.cbsinteractive.com/adchoice">Ad Choice</a> | 
+				<a href="http://www.cbsinteractive.com/terms_of_use.php">Terms of Use</a>
+			</p>
+		</div>
+</div>
+
+
+<script type="text/javascript" src="/js/omniture.js"></script>
+<script type="text/javascript">
+if(typeof omniture!='undefined')
+{
+	var oparms = $('meta[name=omPageParams]').attr("content");
+	var joparms = JSON.parse(oparms);
+	omniture.trackPage(joparms);
+}
+</script>
+<script type="text/javascript" src="/js/dartAds.js"></script>
+<script type="text/javascript" src="http://dw.cbsi.com/js/dw.js"></script>
+<script type="text/javascript">
+if(typeof DW!='undefined')
+{
+	var parms = $('meta[name=dwPageParams]').attr("content");
+	var jparms = JSON.parse(parms);
+	DW.pageParams =  jparms;
+	DW.clear();
+}
+</script>
+
+
+</body>
+</html>

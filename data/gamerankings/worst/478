@@ -1,0 +1,421 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title> Reviews and News Articles - GameRankings</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<meta name="description" content="GameRankings browse/search engine shows games review scores from around the net." />
+
+<link href="/css/gr_default.20131202.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+
+<meta name="dwPageParams" content="{&quot;siteid&quot;:21,&quot;ptid&quot;:&quot;6056&quot;,&quot;onid&quot;:37,&quot;oid&quot;:&quot;6056-37-19--&quot;,&quot;edid&quot;:107,&quot;pguid&quot;:&quot;c503672545b975fc902d197e071bec35&quot;,&quot;url&quot;:&quot;http:\/\/www.gamerankings.com\/browse.html?numrev=0&amp;sort=1&amp;page=478&quot;,&quot;ts&quot;:1431032043}" />
+<meta name="omPageParams" content="{&quot;rsids&quot;:&quot;cbsigamerankingssite,cbsicbsiall&quot;,&quot;rsids_dev&quot;:&quot;cbsigamerankingssite-dev,cnetcbsiall-dev&quot;,&quot;brand&quot;:&quot;Gamerankings&quot;,&quot;sid&quot;:&quot;gamerankings&quot;,&quot;is_dev&quot;:false,&quot;marketing_cloud_id&quot;:&quot;10D31225525FF5790A490D4D@AdobeOrg&quot;,&quot;context&quot;:{&quot;game_title&quot;:null,&quot;page_type_id&quot;:&quot;6056&quot;,&quot;platform&quot;:null,&quot;esrb&quot;:null,&quot;genre&quot;:null,&quot;page_type&quot;:&quot;search&quot;,&quot;game_id&quot;:null,&quot;user_status&quot;:false,&quot;content_id&quot;:null}}" />
+<meta id="ad-settings" itemprop="ad-settings" content="{&quot;script&quot;:&quot;\/\/www.googletagservices.com\/tag\/js\/gpt.js&quot;,&quot;target_params&quot;:{&quot;ptype&quot;:&quot;6056&quot;,&quot;vguid&quot;:&quot;c5036725-45b9-475f-c902-d197e071bec3&quot;},&quot;unit_name&quot;:&quot;\/8264\/aw-gamerankings\/searchresults\/home&quot;,&quot;mapped_units&quot;:{&quot;mpu_top&quot;:{&quot;size&quot;:[[300,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;tower_top&quot;:{&quot;size&quot;:[[160,600]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}}}}" />
+
+<script type="text/javascript">var _gaq = _gaq || [];  _gaq.push(['nT._setAccount', 'UA-27653683-1']);  _gaq.push(['nT._setAllowLinker', true]); _gaq.push(['nT._setSampleRate', '1']); _gaq.push(['nT._trackPageview']); _gaq.push(['_setAccount', 'UA-22577913-9']); _gaq.push(['_setCustomVar',1,'PageType','6056',3]); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = 'http://www' + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script></head>
+<body>
+<div id="container">
+
+	<div id="header">
+		<div id="logo">
+			<a href="/"><img src="http://img.gamefaqs.net/images/v9_clear.gif" alt="GameRankings" /></a>
+		</div>
+	</div>
+	<div id="searchbox">
+		<form id="search" method="get" action="/browse.html">
+		<label for="searchtextbox"><a href="/browse.html">Search:</a></label><input type="text" id="searchtextbox" name="search" value="" class="text" /><input type="hidden" name="numrev" value="3" /><select id="site" name="site"><option value="" selected>All Platforms</option><option value="3ds">3DS</option><option value="dreamcast">Dreamcast</option><option value="ds">DS</option><option value="gameboy">Game Boy</option><option value="gba">Game Boy Advance</option><option value="gbc">Game Boy Color</option><option value="gamecube">GameCube</option><option value="genesis">Genesis</option><option value="iphone">iPhone/iPod</option><option value="mac">Macintosh</option><option value="mobile">Mobile</option><option value="ngage">N-Gage</option><option value="n64">Nintendo 64</option><option value="pc">PC</option><option value="ps">PlayStation</option><option value="ps2">PlayStation 2</option><option value="ps3">PlayStation 3</option><option value="ps4">PlayStation 4</option><option value="vita">PlayStation Vita</option><option value="psp">PSP</option><option value="saturn">Saturn</option><option value="segacd">Sega CD</option><option value="snes">SNES</option><option value="wii">Wii</option><option value="wii-u">Wii U</option><option value="xbox">Xbox</option><option value="xbox360">Xbox 360</option><option value="xboxone">Xbox One</option></select><button type="submit">go</button>
+		</form>
+	</div>
+	<div id="quicknav">
+		<p>
+			<a href="/">Home</a>
+			<a href="/browse.html">All-Time Best</a>
+			<a href="/browse.html?sort=1">All-Time Worst</a>
+			<a href="/sites/index.html">Sites</a>
+			<a href="/help.html">Help</a>
+		</p>
+	</div>
+	<div id="platformlist">
+		<div class="nav">
+			<b>Platforms:</b>
+			<a href="/3ds/index.html">3DS</a> |
+			<a href="/iphone/index.html">iPhone</a> |
+			<a href="/pc/index.html">PC</a> |
+			<a href="/ps3/index.html">PS3</a> |
+			<a href="/ps4/index.html">PS4</a> |
+			<a href="/vita/index.html">Vita</a> |
+			<a href="/wii-u/index.html">Wii U</a> |
+			<a href="/xbox360/index.html">Xbox 360</a> |
+			<a href="/xboxone/index.html">Xbox One</a> |
+			<a href="/browse.html">All&nbsp;Systems</a>
+		</div>
+		<div class="jumper">
+			<form id="sys" action="/search/go.php" method="get">
+				<select id="jumpmenu" name="sys" onchange="location=options[selectedIndex].value;"><option value="/browse.html" selected="selected">Platform Jumper</option><option value="/3ds/index.html">3DS</option><option value="/dreamcast/index.html">Dreamcast</option><option value="/ds/index.html">DS</option><option value="/gameboy/index.html">Game Boy</option><option value="/gba/index.html">Game Boy Advance</option><option value="/gbc/index.html">Game Boy Color</option><option value="/gamecube/index.html">GameCube</option><option value="/genesis/index.html">Genesis</option><option value="/iphone/index.html">iPhone/iPod</option><option value="/mac/index.html">Macintosh</option><option value="/mobile/index.html">Mobile</option><option value="/ngage/index.html">N-Gage</option><option value="/n64/index.html">Nintendo 64</option><option value="/pc/index.html">PC</option><option value="/ps/index.html">PlayStation</option><option value="/ps2/index.html">PlayStation 2</option><option value="/ps3/index.html">PlayStation 3</option><option value="/ps4/index.html">PlayStation 4</option><option value="/vita/index.html">PlayStation Vita</option><option value="/psp/index.html">PSP</option><option value="/saturn/index.html">Saturn</option><option value="/segacd/index.html">Sega CD</option><option value="/snes/index.html">SNES</option><option value="/wii/index.html">Wii</option><option value="/wii-u/index.html">Wii U</option><option value="/xbox/index.html">Xbox</option><option value="/xbox360/index.html">Xbox 360</option><option value="/xboxone/index.html">Xbox One</option></select><button type="submit">go</button>
+			</form>
+			<script type="text/javascript">document.getElementById('sys').getElementsByTagName('button')[0].style.display="none";</script>
+		</div>
+	</div>
+
+	<div id="content">
+<div class="head"><h1>Browse and Search Games</h1></div>
+
+<div id="sky_col_wrap">
+	<div id="main_col_wrap">
+		<div id="main_col">
+			<div class="hub_nav">
+	<div class="box_tl"><div class="box_bl"><div class="box_tr"><div class="box_br">
+		<div class="box_body">
+		<form method="get" action="/browse.html">
+			<h1>Game Search/Browse</h1>
+			Platform: <select name="site" size=1><option label="All Platforms" value="" selected="selected">All Platforms</option>
+<option label="3DS" value="3ds">3DS</option>
+<option label="Dreamcast" value="dreamcast">Dreamcast</option>
+<option label="DS" value="ds">DS</option>
+<option label="Game Boy" value="gameboy">Game Boy</option>
+<option label="Game Boy Advance" value="gba">Game Boy Advance</option>
+<option label="Game Boy Color" value="gbc">Game Boy Color</option>
+<option label="GameCube" value="gamecube">GameCube</option>
+<option label="Genesis" value="genesis">Genesis</option>
+<option label="iOS (iPhone/iPad)" value="iphone">iOS (iPhone/iPad)</option>
+<option label="Macintosh" value="mac">Macintosh</option>
+<option label="Mobile" value="mobile">Mobile</option>
+<option label="N-Gage" value="ngage">N-Gage</option>
+<option label="Nintendo 64" value="n64">Nintendo 64</option>
+<option label="Ouya" value="ouya">Ouya</option>
+<option label="PC" value="pc">PC</option>
+<option label="PlayStation" value="ps">PlayStation</option>
+<option label="PlayStation 2" value="ps2">PlayStation 2</option>
+<option label="PlayStation 3" value="ps3">PlayStation 3</option>
+<option label="PlayStation 4" value="ps4">PlayStation 4</option>
+<option label="PlayStation Vita" value="vita">PlayStation Vita</option>
+<option label="PSP" value="psp">PSP</option>
+<option label="Saturn" value="saturn">Saturn</option>
+<option label="Sega CD" value="segacd">Sega CD</option>
+<option label="Super Nintendo" value="snes">Super Nintendo</option>
+<option label="Wii" value="wii">Wii</option>
+<option label="Wii U" value="wii-u">Wii U</option>
+<option label="Xbox" value="xbox">Xbox</option>
+<option label="Xbox 360" value="xbox360">Xbox 360</option>
+<option label="Xbox One" value="xboxone">Xbox One</option>
+</select>
+			Category: <select name="cat" size=1><option label=" -- All Categories --" value="0" selected="selected"> -- All Categories --</option>
+<option label="Action " value="54">Action </option>
+<option label="Action &gt;&gt; Arcade " value="289">Action &gt;&gt; Arcade </option>
+<option label="Action &gt;&gt; Beat-'Em-Up " value="318">Action &gt;&gt; Beat-'Em-Up </option>
+<option label="Action &gt;&gt; Beat-'Em-Up &gt;&gt; 2D " value="160">Action &gt;&gt; Beat-'Em-Up &gt;&gt; 2D </option>
+<option label="Action &gt;&gt; Beat-'Em-Up &gt;&gt; 3D " value="216">Action &gt;&gt; Beat-'Em-Up &gt;&gt; 3D </option>
+<option label="Action &gt;&gt; Fighting " value="57">Action &gt;&gt; Fighting </option>
+<option label="Action &gt;&gt; Fighting &gt;&gt; 2D " value="86">Action &gt;&gt; Fighting &gt;&gt; 2D </option>
+<option label="Action &gt;&gt; Fighting &gt;&gt; 3D " value="87">Action &gt;&gt; Fighting &gt;&gt; 3D </option>
+<option label="Action &gt;&gt; General " value="250">Action &gt;&gt; General </option>
+<option label="Action &gt;&gt; Pinball " value="114">Action &gt;&gt; Pinball </option>
+<option label="Action &gt;&gt; Platformer " value="56">Action &gt;&gt; Platformer </option>
+<option label="Action &gt;&gt; Platformer &gt;&gt; 2D " value="84">Action &gt;&gt; Platformer &gt;&gt; 2D </option>
+<option label="Action &gt;&gt; Platformer &gt;&gt; 3D " value="85">Action &gt;&gt; Platformer &gt;&gt; 3D </option>
+<option label="Action &gt;&gt; Rhythm " value="63">Action &gt;&gt; Rhythm </option>
+<option label="Action &gt;&gt; Rhythm &gt;&gt; Dancing " value="158">Action &gt;&gt; Rhythm &gt;&gt; Dancing </option>
+<option label="Action &gt;&gt; Rhythm &gt;&gt; Music " value="159">Action &gt;&gt; Rhythm &gt;&gt; Music </option>
+<option label="Action &gt;&gt; Shooter " value="55">Action &gt;&gt; Shooter </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; First-Person " value="79">Action &gt;&gt; Shooter &gt;&gt; First-Person </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; First-Person &gt;&gt; Arcade " value="152">Action &gt;&gt; Shooter &gt;&gt; First-Person &gt;&gt; Arcade </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; First-Person &gt;&gt; Tactical " value="156">Action &gt;&gt; Shooter &gt;&gt; First-Person &gt;&gt; Tactical </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; Light Gun " value="239">Action &gt;&gt; Shooter &gt;&gt; Light Gun </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; Rail " value="81">Action &gt;&gt; Shooter &gt;&gt; Rail </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; Shoot-'Em-Up " value="313">Action &gt;&gt; Shooter &gt;&gt; Shoot-'Em-Up </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; Shoot-'Em-Up &gt;&gt; Horizontal " value="185">Action &gt;&gt; Shooter &gt;&gt; Shoot-'Em-Up &gt;&gt; Horizontal </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; Shoot-'Em-Up &gt;&gt; Top-Down " value="272">Action &gt;&gt; Shooter &gt;&gt; Shoot-'Em-Up &gt;&gt; Top-Down </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; Shoot-'Em-Up &gt;&gt; Vertical " value="83">Action &gt;&gt; Shooter &gt;&gt; Shoot-'Em-Up &gt;&gt; Vertical </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; Third-Person " value="80">Action &gt;&gt; Shooter &gt;&gt; Third-Person </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; Third-Person &gt;&gt; Arcade " value="182">Action &gt;&gt; Shooter &gt;&gt; Third-Person &gt;&gt; Arcade </option>
+<option label="Action &gt;&gt; Shooter &gt;&gt; Third-Person &gt;&gt; Tactical " value="187">Action &gt;&gt; Shooter &gt;&gt; Third-Person &gt;&gt; Tactical </option>
+<option label="Action Adventure " value="163">Action Adventure </option>
+<option label="Action Adventure &gt;&gt; General " value="290">Action Adventure &gt;&gt; General </option>
+<option label="Action Adventure &gt;&gt; Linear " value="293">Action Adventure &gt;&gt; Linear </option>
+<option label="Action Adventure &gt;&gt; Open-World " value="292">Action Adventure &gt;&gt; Open-World </option>
+<option label="Action Adventure &gt;&gt; Sandbox " value="291">Action Adventure &gt;&gt; Sandbox </option>
+<option label="Action Adventure &gt;&gt; Survival " value="164">Action Adventure &gt;&gt; Survival </option>
+<option label="Adventure " value="50">Adventure </option>
+<option label="Adventure &gt;&gt; 3D " value="77">Adventure &gt;&gt; 3D </option>
+<option label="Adventure &gt;&gt; 3D &gt;&gt; First-Person " value="190">Adventure &gt;&gt; 3D &gt;&gt; First-Person </option>
+<option label="Adventure &gt;&gt; 3D &gt;&gt; Third-Person " value="192">Adventure &gt;&gt; 3D &gt;&gt; Third-Person </option>
+<option label="Adventure &gt;&gt; General " value="251">Adventure &gt;&gt; General </option>
+<option label="Adventure &gt;&gt; Point-and-Click " value="295">Adventure &gt;&gt; Point-and-Click </option>
+<option label="Adventure &gt;&gt; Text " value="262">Adventure &gt;&gt; Text </option>
+<option label="Adventure &gt;&gt; Visual Novel " value="294">Adventure &gt;&gt; Visual Novel </option>
+<option label="Hardware " value="263">Hardware </option>
+<option label="Hardware &gt;&gt; Console " value="264">Hardware &gt;&gt; Console </option>
+<option label="Hardware &gt;&gt; General " value="265">Hardware &gt;&gt; General </option>
+<option label="Miscellaneous " value="49">Miscellaneous </option>
+<option label="Miscellaneous &gt;&gt; Application " value="277">Miscellaneous &gt;&gt; Application </option>
+<option label="Miscellaneous &gt;&gt; Board / Card Game " value="227">Miscellaneous &gt;&gt; Board / Card Game </option>
+<option label="Miscellaneous &gt;&gt; Compilation " value="233">Miscellaneous &gt;&gt; Compilation </option>
+<option label="Miscellaneous &gt;&gt; Demo Disc " value="280">Miscellaneous &gt;&gt; Demo Disc </option>
+<option label="Miscellaneous &gt;&gt; Edutainment " value="275">Miscellaneous &gt;&gt; Edutainment </option>
+<option label="Miscellaneous &gt;&gt; Exercise / Fitness " value="287">Miscellaneous &gt;&gt; Exercise / Fitness </option>
+<option label="Miscellaneous &gt;&gt; Gambling " value="113">Miscellaneous &gt;&gt; Gambling </option>
+<option label="Miscellaneous &gt;&gt; General " value="256">Miscellaneous &gt;&gt; General </option>
+<option label="Miscellaneous &gt;&gt; Party / Minigame " value="181">Miscellaneous &gt;&gt; Party / Minigame </option>
+<option label="Miscellaneous &gt;&gt; Trivia / Game Show " value="224">Miscellaneous &gt;&gt; Trivia / Game Show </option>
+<option label="Puzzle " value="173">Puzzle </option>
+<option label="Puzzle &gt;&gt; Action " value="282">Puzzle &gt;&gt; Action </option>
+<option label="Puzzle &gt;&gt; General " value="281">Puzzle &gt;&gt; General </option>
+<option label="Puzzle &gt;&gt; Hidden Object " value="286">Puzzle &gt;&gt; Hidden Object </option>
+<option label="Puzzle &gt;&gt; Logic " value="285">Puzzle &gt;&gt; Logic </option>
+<option label="Puzzle &gt;&gt; Matching " value="283">Puzzle &gt;&gt; Matching </option>
+<option label="Puzzle &gt;&gt; Stacking " value="284">Puzzle &gt;&gt; Stacking </option>
+<option label="Racing " value="47">Racing </option>
+<option label="Racing &gt;&gt; Arcade " value="314">Racing &gt;&gt; Arcade </option>
+<option label="Racing &gt;&gt; Arcade &gt;&gt; Automobile " value="232">Racing &gt;&gt; Arcade &gt;&gt; Automobile </option>
+<option label="Racing &gt;&gt; Arcade &gt;&gt; Futuristic " value="139">Racing &gt;&gt; Arcade &gt;&gt; Futuristic </option>
+<option label="Racing &gt;&gt; Arcade &gt;&gt; Other " value="235">Racing &gt;&gt; Arcade &gt;&gt; Other </option>
+<option label="Racing &gt;&gt; General " value="252">Racing &gt;&gt; General </option>
+<option label="Racing &gt;&gt; Simulation " value="315">Racing &gt;&gt; Simulation </option>
+<option label="Racing &gt;&gt; Simulation &gt;&gt; Automobile " value="138">Racing &gt;&gt; Simulation &gt;&gt; Automobile </option>
+<option label="Racing &gt;&gt; Simulation &gt;&gt; Other " value="274">Racing &gt;&gt; Simulation &gt;&gt; Other </option>
+<option label="Role-Playing " value="48">Role-Playing </option>
+<option label="Role-Playing &gt;&gt; Action RPG " value="73">Role-Playing &gt;&gt; Action RPG </option>
+<option label="Role-Playing &gt;&gt; General " value="257">Role-Playing &gt;&gt; General </option>
+<option label="Role-Playing &gt;&gt; Japanese-Style " value="71">Role-Playing &gt;&gt; Japanese-Style </option>
+<option label="Role-Playing &gt;&gt; Massively Multiplayer " value="75">Role-Playing &gt;&gt; Massively Multiplayer </option>
+<option label="Role-Playing &gt;&gt; Roguelike " value="296">Role-Playing &gt;&gt; Roguelike </option>
+<option label="Role-Playing &gt;&gt; Trainer " value="297">Role-Playing &gt;&gt; Trainer </option>
+<option label="Role-Playing &gt;&gt; Western-Style " value="72">Role-Playing &gt;&gt; Western-Style </option>
+<option label="Simulation " value="46">Simulation </option>
+<option label="Simulation &gt;&gt; Flight " value="68">Simulation &gt;&gt; Flight </option>
+<option label="Simulation &gt;&gt; Flight &gt;&gt; Civilian " value="157">Simulation &gt;&gt; Flight &gt;&gt; Civilian </option>
+<option label="Simulation &gt;&gt; Flight &gt;&gt; Combat " value="130">Simulation &gt;&gt; Flight &gt;&gt; Combat </option>
+<option label="Simulation &gt;&gt; General " value="255">Simulation &gt;&gt; General </option>
+<option label="Simulation &gt;&gt; Marine " value="317">Simulation &gt;&gt; Marine </option>
+<option label="Simulation &gt;&gt; Marine &gt;&gt; Civilian " value="126">Simulation &gt;&gt; Marine &gt;&gt; Civilian </option>
+<option label="Simulation &gt;&gt; Marine &gt;&gt; Combat " value="125">Simulation &gt;&gt; Marine &gt;&gt; Combat </option>
+<option label="Simulation &gt;&gt; Space " value="69">Simulation &gt;&gt; Space </option>
+<option label="Simulation &gt;&gt; Space &gt;&gt; Civilian " value="133">Simulation &gt;&gt; Space &gt;&gt; Civilian </option>
+<option label="Simulation &gt;&gt; Space &gt;&gt; Combat " value="132">Simulation &gt;&gt; Space &gt;&gt; Combat </option>
+<option label="Simulation &gt;&gt; Vehicle " value="316">Simulation &gt;&gt; Vehicle </option>
+<option label="Simulation &gt;&gt; Vehicle &gt;&gt; Civilian " value="298">Simulation &gt;&gt; Vehicle &gt;&gt; Civilian </option>
+<option label="Simulation &gt;&gt; Vehicle &gt;&gt; Combat " value="124">Simulation &gt;&gt; Vehicle &gt;&gt; Combat </option>
+<option label="Simulation &gt;&gt; Vehicle &gt;&gt; Train " value="259">Simulation &gt;&gt; Vehicle &gt;&gt; Train </option>
+<option label="Simulation &gt;&gt; Virtual " value="311">Simulation &gt;&gt; Virtual </option>
+<option label="Simulation &gt;&gt; Virtual &gt;&gt; Career " value="300">Simulation &gt;&gt; Virtual &gt;&gt; Career </option>
+<option label="Simulation &gt;&gt; Virtual &gt;&gt; Pet " value="299">Simulation &gt;&gt; Virtual &gt;&gt; Pet </option>
+<option label="Simulation &gt;&gt; Virtual &gt;&gt; Virtual Life " value="242">Simulation &gt;&gt; Virtual &gt;&gt; Virtual Life </option>
+<option label="Sports " value="43">Sports </option>
+<option label="Sports &gt;&gt; General " value="254">Sports &gt;&gt; General </option>
+<option label="Sports &gt;&gt; Individual " value="92">Sports &gt;&gt; Individual </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Athletics " value="231">Sports &gt;&gt; Individual &gt;&gt; Athletics </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Biking " value="103">Sports &gt;&gt; Individual &gt;&gt; Biking </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Billiards " value="112">Sports &gt;&gt; Individual &gt;&gt; Billiards </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Bowling " value="243">Sports &gt;&gt; Individual &gt;&gt; Bowling </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Combat " value="312">Sports &gt;&gt; Individual &gt;&gt; Combat </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Combat &gt;&gt; Boxing / Martial Arts " value="104">Sports &gt;&gt; Individual &gt;&gt; Combat &gt;&gt; Boxing / Martial Arts </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Combat &gt;&gt; Wrestling " value="93">Sports &gt;&gt; Individual &gt;&gt; Combat &gt;&gt; Wrestling </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Golf " value="98">Sports &gt;&gt; Individual &gt;&gt; Golf </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Golf &gt;&gt; Arcade " value="206">Sports &gt;&gt; Individual &gt;&gt; Golf &gt;&gt; Arcade </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Golf &gt;&gt; Sim " value="207">Sports &gt;&gt; Individual &gt;&gt; Golf &gt;&gt; Sim </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Horse Racing " value="278">Sports &gt;&gt; Individual &gt;&gt; Horse Racing </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Nature " value="108">Sports &gt;&gt; Individual &gt;&gt; Nature </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Nature &gt;&gt; Fishing " value="109">Sports &gt;&gt; Individual &gt;&gt; Nature &gt;&gt; Fishing </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Nature &gt;&gt; Hunting " value="110">Sports &gt;&gt; Individual &gt;&gt; Nature &gt;&gt; Hunting </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Other " value="246">Sports &gt;&gt; Individual &gt;&gt; Other </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Skate / Skateboard " value="102">Sports &gt;&gt; Individual &gt;&gt; Skate / Skateboard </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Ski / Snowboard " value="273">Sports &gt;&gt; Individual &gt;&gt; Ski / Snowboard </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Surf / Wakeboard " value="238">Sports &gt;&gt; Individual &gt;&gt; Surf / Wakeboard </option>
+<option label="Sports &gt;&gt; Individual &gt;&gt; Tennis " value="101">Sports &gt;&gt; Individual &gt;&gt; Tennis </option>
+<option label="Sports &gt;&gt; Team " value="91">Sports &gt;&gt; Team </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Baseball " value="94">Sports &gt;&gt; Team &gt;&gt; Baseball </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Baseball &gt;&gt; Arcade " value="200">Sports &gt;&gt; Team &gt;&gt; Baseball &gt;&gt; Arcade </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Baseball &gt;&gt; Sim " value="201">Sports &gt;&gt; Team &gt;&gt; Baseball &gt;&gt; Sim </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Basketball " value="95">Sports &gt;&gt; Team &gt;&gt; Basketball </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Basketball &gt;&gt; Arcade " value="202">Sports &gt;&gt; Team &gt;&gt; Basketball &gt;&gt; Arcade </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Basketball &gt;&gt; Sim " value="203">Sports &gt;&gt; Team &gt;&gt; Basketball &gt;&gt; Sim </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Cricket " value="258">Sports &gt;&gt; Team &gt;&gt; Cricket </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Football " value="97">Sports &gt;&gt; Team &gt;&gt; Football </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Football &gt;&gt; Arcade " value="204">Sports &gt;&gt; Team &gt;&gt; Football &gt;&gt; Arcade </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Football &gt;&gt; Sim " value="205">Sports &gt;&gt; Team &gt;&gt; Football &gt;&gt; Sim </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Futuristic " value="107">Sports &gt;&gt; Team &gt;&gt; Futuristic </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Ice Hockey " value="99">Sports &gt;&gt; Team &gt;&gt; Ice Hockey </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Ice Hockey &gt;&gt; Arcade " value="208">Sports &gt;&gt; Team &gt;&gt; Ice Hockey &gt;&gt; Arcade </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Ice Hockey &gt;&gt; Sim " value="209">Sports &gt;&gt; Team &gt;&gt; Ice Hockey &gt;&gt; Sim </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Other " value="310">Sports &gt;&gt; Team &gt;&gt; Other </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Rugby " value="244">Sports &gt;&gt; Team &gt;&gt; Rugby </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Soccer " value="100">Sports &gt;&gt; Team &gt;&gt; Soccer </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Soccer &gt;&gt; Arcade " value="210">Sports &gt;&gt; Team &gt;&gt; Soccer &gt;&gt; Arcade </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Soccer &gt;&gt; Management " value="212">Sports &gt;&gt; Team &gt;&gt; Soccer &gt;&gt; Management </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Soccer &gt;&gt; Sim " value="211">Sports &gt;&gt; Team &gt;&gt; Soccer &gt;&gt; Sim </option>
+<option label="Sports &gt;&gt; Team &gt;&gt; Volleyball " value="105">Sports &gt;&gt; Team &gt;&gt; Volleyball </option>
+<option label="Strategy " value="45">Strategy </option>
+<option label="Strategy &gt;&gt; General " value="253">Strategy &gt;&gt; General </option>
+<option label="Strategy &gt;&gt; Management " value="60">Strategy &gt;&gt; Management </option>
+<option label="Strategy &gt;&gt; Management &gt;&gt; Business / Tycoon " value="220">Strategy &gt;&gt; Management &gt;&gt; Business / Tycoon </option>
+<option label="Strategy &gt;&gt; Management &gt;&gt; Government " value="123">Strategy &gt;&gt; Management &gt;&gt; Government </option>
+<option label="Strategy &gt;&gt; Real-Time " value="58">Strategy &gt;&gt; Real-Time </option>
+<option label="Strategy &gt;&gt; Real-Time &gt;&gt; Command " value="302">Strategy &gt;&gt; Real-Time &gt;&gt; Command </option>
+<option label="Strategy &gt;&gt; Real-Time &gt;&gt; Defense " value="303">Strategy &gt;&gt; Real-Time &gt;&gt; Defense </option>
+<option label="Strategy &gt;&gt; Real-Time &gt;&gt; General " value="301">Strategy &gt;&gt; Real-Time &gt;&gt; General </option>
+<option label="Strategy &gt;&gt; Real-Time &gt;&gt; MOBA " value="288">Strategy &gt;&gt; Real-Time &gt;&gt; MOBA </option>
+<option label="Strategy &gt;&gt; Real-Time &gt;&gt; Tactics " value="304">Strategy &gt;&gt; Real-Time &gt;&gt; Tactics </option>
+<option label="Strategy &gt;&gt; Turn-Based " value="59">Strategy &gt;&gt; Turn-Based </option>
+<option label="Strategy &gt;&gt; Turn-Based &gt;&gt; 4X " value="306">Strategy &gt;&gt; Turn-Based &gt;&gt; 4X </option>
+<option label="Strategy &gt;&gt; Turn-Based &gt;&gt; Artillery " value="307">Strategy &gt;&gt; Turn-Based &gt;&gt; Artillery </option>
+<option label="Strategy &gt;&gt; Turn-Based &gt;&gt; Card Battle " value="240">Strategy &gt;&gt; Turn-Based &gt;&gt; Card Battle </option>
+<option label="Strategy &gt;&gt; Turn-Based &gt;&gt; General " value="305">Strategy &gt;&gt; Turn-Based &gt;&gt; General </option>
+<option label="Strategy &gt;&gt; Turn-Based &gt;&gt; Tactics " value="308">Strategy &gt;&gt; Turn-Based &gt;&gt; Tactics </option>
+</select><br />
+			Released: <select name="year" size=1><option label="at any time" value="0" selected="selected">at any time</option>
+<option label="in the past" value="1">in the past</option>
+<option label="in the last month" value="2">in the last month</option>
+<option label="in the last three months" value="3">in the last three months</option>
+<option label="in the last six months" value="4">in the last six months</option>
+<option label="in the last year" value="5">in the last year</option>
+<option label="in the future" value="6">in the future</option>
+<option label="in 2015" value="2015">in 2015</option>
+<option label="in 2014" value="2014">in 2014</option>
+<option label="in 2013" value="2013">in 2013</option>
+<option label="in 2012" value="2012">in 2012</option>
+<option label="in 2011" value="2011">in 2011</option>
+<option label="in 2010" value="2010">in 2010</option>
+<option label="in 2009" value="2009">in 2009</option>
+<option label="in 2008" value="2008">in 2008</option>
+<option label="in 2007" value="2007">in 2007</option>
+<option label="in 2006" value="2006">in 2006</option>
+<option label="in 2005" value="2005">in 2005</option>
+<option label="in 2004" value="2004">in 2004</option>
+<option label="in 2003" value="2003">in 2003</option>
+<option label="in 2002" value="2002">in 2002</option>
+<option label="in 2001" value="2001">in 2001</option>
+<option label="in 2000" value="2000">in 2000</option>
+<option label="in 1999" value="1999">in 1999</option>
+<option label="in 1998" value="1998">in 1998</option>
+<option label="in 1997" value="1997">in 1997</option>
+<option label="in 1996" value="1996">in 1996</option>
+<option label="in 1995" value="1995">in 1995</option>
+<option label="in 1994" value="1994">in 1994</option>
+<option label="in 1993" value="1993">in 1993</option>
+<option label="in 1992" value="1992">in 1992</option>
+<option label="in 1991" value="1991">in 1991</option>
+<option label="in 1990" value="1990">in 1990</option>
+<option label="in 1989" value="1989">in 1989</option>
+<option label="in 1988" value="1988">in 1988</option>
+<option label="in 1987" value="1987">in 1987</option>
+<option label="in 1986" value="1986">in 1986</option>
+<option label="in 1985" value="1985">in 1985</option>
+<option label="in 1984" value="1984">in 1984</option>
+<option label="in 1983" value="1983">in 1983</option>
+<option label="in 1982" value="1982">in 1982</option>
+<option label="in 1981" value="1981">in 1981</option>
+<option label="in 1980" value="1980">in 1980</option>
+<option label="in 1979" value="1979">in 1979</option>
+<option label="in 1978" value="1978">in 1978</option>
+<option label="in 1977" value="1977">in 1977</option>
+<option label="in 1976" value="1976">in 1976</option>
+<option label="in 1975" value="1975">in 1975</option>
+<option label="in 1974" value="1974">in 1974</option>
+<option label="in 1973" value="1973">in 1973</option>
+<option label="in 1972" value="1972">in 1972</option>
+<option label="in 1971" value="1971">in 1971</option>
+<option label="in 1970" value="1970">in 1970</option>
+</select>
+			With At Least: <select name="numrev" size=1><option label="0 reviews" value="3">0 reviews</option>
+<option label="1 review" value="2">1 review</option>
+<option label="5 reviews" value="4">5 reviews</option>
+<option label="10 reviews" value="1">10 reviews</option>
+<option label="20 reviews" value="0" selected="selected">20 reviews</option>
+</select>
+			Sorted: <select name="sort" size=1><option label="best to worst" value="0">best to worst</option>
+<option label="worst to best" value="1" selected="selected">worst to best</option>
+<option label="A-Z" value="2">A-Z</option>
+<option label="Z-A" value="3">Z-A</option>
+<option label="newest to oldest" value="4">newest to oldest</option>
+<option label="oldest to newest" value="5">oldest to newest</option>
+</select><br />
+			Starts With: <select name="letter" size=1><option label="-" value="" selected="selected">-</option>
+<option label="A" value="A">A</option>
+<option label="B" value="B">B</option>
+<option label="C" value="C">C</option>
+<option label="D" value="D">D</option>
+<option label="E" value="E">E</option>
+<option label="F" value="F">F</option>
+<option label="G" value="G">G</option>
+<option label="H" value="H">H</option>
+<option label="I" value="I">I</option>
+<option label="J" value="J">J</option>
+<option label="K" value="K">K</option>
+<option label="L" value="L">L</option>
+<option label="M" value="M">M</option>
+<option label="N" value="N">N</option>
+<option label="O" value="O">O</option>
+<option label="P" value="P">P</option>
+<option label="Q" value="Q">Q</option>
+<option label="R" value="R">R</option>
+<option label="S" value="S">S</option>
+<option label="T" value="T">T</option>
+<option label="U" value="U">U</option>
+<option label="V" value="V">V</option>
+<option label="W" value="W">W</option>
+<option label="X" value="X">X</option>
+<option label="Y" value="Y">Y</option>
+<option label="Z" value="Z">Z</option>
+<option label="#" value="_">#</option>
+</select>
+			Search: <input type="text" name="search" size="40" value="" />
+			<input type="submit" value="Browse/Search" />
+		</form>
+		</div>
+	</div></div></div></div>
+</div>							<div class="pod">No results were found for your search.</div>
+					</div>
+	</div>
+	<div id="side_col_wrap">
+		<div id="side_col">
+			<div class="ad ad_tower_top" id="tower_top-wrap">
+    <div class="ad_wrap" id="tower_top">
+    	<script type="text/javascript">(function (c) { "use strict";  var cmd = c.displayAdCmd || []; cmd.push('tower_top'); c.displayAdCmd = cmd; })(this); </script>
+	</div>
+</div>
+		</div>
+	</div>
+</div>
+
+	</div>
+	<div id="footer">
+		<div id="sitenav">
+			<p>
+			<a href="http://www.gamespot.com/">GameSpot</a> | <a href="http://www.gamefaqs.com/">GameFAQs</a> |	<a href="http://www.metacritic.com">Metacritic</a>
+			</p>
+		</div>
+		<div id="broadnav">
+			<p>
+				&copy; 2015 CBS Interactive Inc. All rights reserved.
+				<a href="http://legalterms.cbsinteractive.com/privacy">Privacy Policy</a> | 
+				<a href="http://legalterms.cbsinteractive.com/adchoice">Ad Choice</a> | 
+				<a href="http://www.cbsinteractive.com/terms_of_use.php">Terms of Use</a>
+			</p>
+		</div>
+</div>
+
+
+<script type="text/javascript" src="/js/omniture.js"></script>
+<script type="text/javascript">
+if(typeof omniture!='undefined')
+{
+	var oparms = $('meta[name=omPageParams]').attr("content");
+	var joparms = JSON.parse(oparms);
+	omniture.trackPage(joparms);
+}
+</script>
+<script type="text/javascript" src="/js/dartAds.js"></script>
+<script type="text/javascript" src="http://dw.cbsi.com/js/dw.js"></script>
+<script type="text/javascript">
+if(typeof DW!='undefined')
+{
+	var parms = $('meta[name=dwPageParams]').attr("content");
+	var jparms = JSON.parse(parms);
+	DW.pageParams =  jparms;
+	DW.clear();
+}
+</script>
+
+
+</body>
+</html>

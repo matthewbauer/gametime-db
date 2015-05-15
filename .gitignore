@@ -1,5 +1,4 @@
 *.db
-data
 node_modules
 *.js
 *.db-journal
