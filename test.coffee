@@ -18,4 +18,6 @@ for tablename, table of tables
             db.get "select * from #{tablename} where #{column} = '#{field}'", (err, row) ->
               should.not.exist err
               should.exist row
+              if tablename is 'game'
+                row.should.have.property('giantbomb_id').and.be.a.Number
               done()
