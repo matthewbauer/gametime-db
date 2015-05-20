@@ -19,7 +19,6 @@ db.all 'select name from Game where gameranking not null and giantbomb_id is nul
         resources: 'game'
         query: game.name
     request resource, (err, response, body) ->
-      console.log body
       if not err and response.statusCode == 200
         search = JSON.parse body
         info = search.results[0]

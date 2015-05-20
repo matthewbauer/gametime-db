@@ -5,9 +5,9 @@ tables =
   game:
     title: ['Super Mario World', 'Super Metroid', 'Super Mario Bros. 3']
   company:
-    name: ['Nintendo', 'Sega', 'Microsoft', 'Atari']
+    name: ['Nintendo']
   console:
-    name: ['Super Nintendo Entertainment System', 'Virtual Boy']
+    name: ['Super Nintendo Entertainment System']
 
 for tablename, table of tables
   describe "Looking through #{tablename}", ->

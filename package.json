@@ -1,6 +1,6 @@
 {
   "name": "gametime-db",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "A database of retro video games used by gametime.",
   "main": "db.js",
   "author": "Matthew Bauer <mjbauer95@gmail.com>",
