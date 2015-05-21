@@ -7,7 +7,7 @@ tables =
   company:
     name: ['Nintendo']
   console:
-    name: ['Super Nintendo Entertainment System']
+    name: ['Super Nintendo Entertainment System', 'Nintendo Entertainment System']
 
 for tablename, table of tables
   describe "Looking through #{tablename}", ->
