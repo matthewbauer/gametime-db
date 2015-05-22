@@ -3,7 +3,7 @@ should = require 'should'
 
 tables =
   game:
-    title: ['Super Mario World', 'Super Metroid', 'Super Mario Bros. 3']
+    title: ['Super Mario World', 'Super Metroid']
   company:
     name: ['Nintendo']
   console:
