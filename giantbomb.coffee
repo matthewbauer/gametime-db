@@ -4,7 +4,8 @@ url = require 'url'
 
 db = require './db'
 
-db.all 'select name from Game where gameranking not null and giantbomb_id is null', (err, games) ->
+db.all 'select name from Game where gameranking not null and
+giantbomb_id is null', (err, games) ->
   return if err or not games
   async.eachSeries games, (game, callback) ->
     resource = url.format

@@ -21,8 +21,8 @@ fs.readdir dir, (err, files) ->
         ///
 
         db.run 'insert or ignore into Company (name) values (?)', company
-        db.run 'insert or ignore into Console (name, company, nointro_name) values
-                (? , ? , ? ) ', consoleName, company, noIntroName
+        db.run 'insert or ignore into Console (name, company, nointro_name)
+                values (? , ? , ? ) ', consoleName, company, noIntroName
 
         result.datafile.game.forEach (game) ->
           longName = game.description[0]

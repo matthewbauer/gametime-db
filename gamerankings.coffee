@@ -8,7 +8,7 @@ cheerio = require 'cheerio'
 parse = (dir) ->
   fs.readdir dir, (err, files) ->
     for file in files
-      fs.readFile path.join(dir, file), (err, data) ->
+      fs.readFile (path.join dir, file), (err, data) ->
         $ = cheerio.load data
         $('.pod .body table tr').each ->
           col1 = $($(@).children()[0])
@@ -19,7 +19,7 @@ parse = (dir) ->
           thumb = col1.find('img').attr('src')
           platform = col2.text()
           name = col3.find('a').text()
-          [publisher, year] = $(col3.contents()[2]).text().trim().split(', ')
+          [publisher, year] = $(col3.contents()[2]).text().trim().split ', '
           year = parseInt year
           rating = parseFloat col4.find('span').text()
           reviews = parseInt $(col4.contents()[2]).text()

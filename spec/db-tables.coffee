@@ -7,7 +7,10 @@ tables =
   company:
     name: ['Nintendo']
   console:
-    name: ['Super Nintendo Entertainment System', 'Nintendo Entertainment System']
+    name: [
+      'Super Nintendo Entertainment System'
+      'Nintendo Entertainment System'
+    ]
 
 for tablename, table of tables
   describe "Looking through #{tablename}", ->
@@ -15,7 +18,8 @@ for tablename, table of tables
       for field in fields
         do (tablename, column, field) ->
           it "#{field} should be in #{tablename}", (done) ->
-            db.get "select * from #{tablename} where #{column} = '#{field}'", (err, row) ->
+            db.get "select * from #{tablename} where #{column} = '#{field}'",
+            (err, row) ->
               should.not.exist err
               should.exist row
               if tablename is 'game'
