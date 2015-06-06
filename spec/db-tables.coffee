@@ -1,9 +1,15 @@
-db = require './db'
+db = require '../db'
 should = require 'should'
 
 tables =
   game:
-    title: ['Super Mario World', 'Super Metroid']
+    title: [
+      'Aerobiz Supersonic'
+      'Super Metroid'
+      'Super Mario World'
+      'PowerFest 94'
+      'Super Mario Kart'
+    ]
   company:
     name: ['Nintendo']
   console:
@@ -24,4 +30,6 @@ for tablename, table of tables
               should.exist row
               if tablename is 'game'
                 row.should.have.property('giantbomb_id').and.be.a.Number
+                row.should.have.property('giantbomb_image')
+                row.should.have.property('gameranking').and.be.a.Number
               done()

@@ -32,5 +32,5 @@ module.exports = (grunt) ->
                             'shell:gamerankings', 'shell:giantbomb']
   grunt.registerTask 'prepublish', ['coffee:compile']
   grunt.registerTask 'test', ['mochaTest']
-  grunt.registerTask 'build', ['db', 'coffee:compile', 'test']
-  grunt.registerTask 'default', ['build']
+  grunt.registerTask 'build', ['db', 'coffee:compile']
+  grunt.registerTask 'default', ['build', 'test']
