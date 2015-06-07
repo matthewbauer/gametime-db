@@ -13,6 +13,8 @@
     "test": "grunt test"
   },
   "dependencies": {
+    "coveralls": "^2.11.2",
+    "mocha-lcov-reporter": "0.0.2",
     "sqlite3": "git://github.com/matthewbauer/node-sqlite3.git#node-gyp"
   },
   "devDependencies": {

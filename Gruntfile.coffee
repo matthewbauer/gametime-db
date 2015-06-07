@@ -18,7 +18,10 @@ module.exports = (grunt) ->
       test:
         options:
           reporter: 'spec',
-          require: 'coffee-script/register'
+          require: [
+            'coffee-script/register'
+            'coffee-coverage/register-istanbul'
+          ]
         src: 'spec/*'
     coffee:
       compile:
