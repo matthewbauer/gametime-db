@@ -23,6 +23,9 @@ module.exports = (grunt) ->
             'coffee-coverage/register-istanbul'
           ]
         src: 'spec/*'
+    coveralls:
+      default:
+        src: 'coverage/*.info'
     coffee:
       compile:
         files: [

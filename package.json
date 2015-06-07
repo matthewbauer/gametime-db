@@ -10,20 +10,22 @@
   },
   "scripts": {
     "prepublish": "grunt prepublish",
-    "test": "grunt test"
+    "test": "grunt test",
+    "build": "grunt build",
+    "coveralls": "grunt coveralls"
   },
   "dependencies": {
-    "coveralls": "^2.11.2",
-    "mocha-lcov-reporter": "0.0.2",
     "sqlite3": "git://github.com/matthewbauer/node-sqlite3.git#node-gyp"
   },
   "devDependencies": {
     "async": "^0.9.0",
     "cheerio": "^0.19.0",
+    "coffee-coverage": "^0.6.0",
     "coffee-script": "^1.9.2",
     "electron-rebuild": "^0.1.4",
     "grunt": "^0.4.5",
     "grunt-contrib-coffee": "^0.13.0",
+    "grunt-coveralls": "^1.0.0",
     "grunt-mocha-test": "^0.12.7",
     "grunt-shell": "^1.1.2",
     "load-grunt-tasks": "^3.1.0",

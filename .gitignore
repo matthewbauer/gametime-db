@@ -3,3 +3,4 @@ node_modules
 *.js
 *.db-journal
 npm-debug.log
+coverage
