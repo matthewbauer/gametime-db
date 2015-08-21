@@ -1,6 +1,5 @@
 {
   "name": "gametime-db",
-  "version": "0.6.8",
   "description": "A database of retro video games used by gametime.",
   "main": "db.js",
   "author": "Matthew Bauer <mjbauer95@gmail.com>",
@@ -15,7 +14,6 @@
     "coveralls": "grunt coveralls"
   },
   "dependencies": {
-    "sqlite3": "git://github.com/matthewbauer/node-sqlite3.git#node-gyp"
   },
   "devDependencies": {
     "async": "^0.9.0",
