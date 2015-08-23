@@ -1,1 +1,1 @@
-module.exports = require './gametime.json'
+module.exports = require './db.json'
