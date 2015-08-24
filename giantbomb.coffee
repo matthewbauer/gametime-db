@@ -5,7 +5,7 @@ db = require './db'
 
 fetch = require 'node-fetch'
 
-requests = (Object.keys db.games).map (name) ->
+(Object.keys db.games).map (name) ->
   ->
     game = db.games[name]
     return if game.giantbomb_id
@@ -19,7 +19,7 @@ requests = (Object.keys db.games).map (name) ->
         field_list: 'id,image,deck'
         limit: 1
         resources: 'game'
-        query: game.name
+        query: game.title
     .then (response) ->
       response.json()
     .then (search) ->
@@ -30,6 +30,8 @@ requests = (Object.keys db.games).map (name) ->
         game.giantbomb_id = info.id
         game.summary = info.deck
         game.giantbomb_image = info.image.small_url if info.image
+      else
+        delete db.games[name]
 .reduce (prev, val) ->
   prev.then val
 , Promise.resolve()

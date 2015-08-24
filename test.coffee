@@ -9,11 +9,10 @@ games = [
   'Super Mario Kart'
 ]
 
-describe "Looking for games", ->
+describe 'Looking for games', ->
   for index, game of games
     do (game) ->
       it "#{game} should have all props", ->
         should.exist db.games[game]
         should.exist db.games[game].giantbomb_id
         should.exist db.games[game].giantbomb_image
-        should.exist db.games[game].gamerankging
