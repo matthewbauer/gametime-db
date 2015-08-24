@@ -4,4 +4,4 @@ node_modules
 *.db-journal
 npm-debug.log
 coverage
-*.json
+db.json

@@ -1,14 +1,15 @@
-request = require 'request'
-async = require 'async'
 url = require 'url'
-
+denodeify = require 'denodeify'
+fs = require 'fs'
 db = require './db'
 
-db.all 'select name from Game where gameranking not null and
-giantbomb_id is null', (err, games) ->
-  return if err or not games
-  async.eachSeries games, (game, callback) ->
-    resource = url.format
+fetch = require 'node-fetch'
+
+requests = (Object.keys db.games).map (name) ->
+  ->
+    game = db.games[name]
+    return if game.giantbomb_id
+    fetch url.format
       protocol: 'http'
       hostname: 'www.giantbomb.com'
       pathname: 'api/search'
@@ -19,19 +20,21 @@ giantbomb_id is null', (err, games) ->
         limit: 1
         resources: 'game'
         query: game.name
-    request resource, (err, response, body) ->
-      if not err and response.statusCode == 200
-        search = JSON.parse body
-        info = search.results[0]
-        if search.error is 'Rate limit exceeded.  Slow down cowboy.'
-          callback(search.error)
-          return
-        if info
-          image = null
-          if info.image
-            image = info.image.small_url
-          db.run 'update Game set giantbomb_id = ?, summary = ?,
-                  giantbomb_image = ? where name = ?', info.id, info.deck,
-                  image, game.name, callback
-          return
-      callback()
+    .then (response) ->
+      response.json()
+    .then (search) ->
+      if search.error != 'OK'
+        throw search.error
+      info = search.results[0]
+      if info
+        game.giantbomb_id = info.id
+        game.summary = info.deck
+        game.giantbomb_image = info.image.small_url if info.image
+.reduce (prev, val) ->
+  prev.then val
+, Promise.resolve()
+.catch (err) ->
+  console.error err
+  return
+.then ->
+  (denodeify fs.writeFile) './db.json', JSON.stringify db

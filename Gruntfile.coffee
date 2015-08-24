@@ -1,9 +1,11 @@
 module.exports = (grunt) ->
-  require('load-grunt-tasks')(grunt)
+  (require 'load-grunt-tasks') grunt
 
   grunt.initConfig
     pkg: grunt.file.readJSON 'package.json'
     shell:
+      init_db:
+        command: 'coffee create.coffee'
       nointro:
         command: 'coffee nointro.coffee'
       fetch:
@@ -20,7 +22,7 @@ module.exports = (grunt) ->
             'coffee-script/register'
             'coffee-coverage/register-istanbul'
           ]
-        src: 'spec/*'
+        src: 'test.coffee'
     coveralls:
       default:
         src: 'coverage/*.info'
