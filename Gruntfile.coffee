@@ -14,6 +14,8 @@ module.exports = (grunt) ->
         command: 'coffee giantbomb.coffee'
       gamerankings:
         command: 'coffee gamerankings.coffee'
+      'to-array':
+        command: 'coffee to-array.coffee'
     mochaTest:
       test:
         options:
@@ -35,7 +37,8 @@ module.exports = (grunt) ->
         ]
 
   grunt.registerTask 'db', ['shell:init_db', 'shell:nointro',
-                            'shell:gamerankings', 'shell:giantbomb']
+                            'shell:gamerankings', 'shell:giantbomb',
+                            'shell:to-array']
   grunt.registerTask 'prepublish', ['coffee:compile']
   grunt.registerTask 'test', ['mochaTest']
   grunt.registerTask 'build', ['db', 'coffee:compile']

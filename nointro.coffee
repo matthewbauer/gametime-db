@@ -65,9 +65,9 @@ db.games = {}
             region: region
             file_name: game.rom[0].$.name
             size: parseInt game.rom[0].$.size
-            md5: parseInt game.rom[0].$.md5, 16
-            crc: parseInt game.rom[0].$.crc, 16
-            sha1: parseInt game.rom[0].$.sha1, 16
+            md5: game.rom[0].$.md5, 16
+            crc: game.rom[0].$.crc, 16
+            sha1: game.rom[0].$.sha1, 16
             nointro_name: longName
             console: consoleName
 .then ->
