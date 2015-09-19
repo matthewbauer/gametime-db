@@ -5,9 +5,8 @@ db = require './db'
 
 fetch = require 'node-fetch'
 
-(Object.keys db.games).map (name) ->
+db.map (game) ->
   ->
-    game = db.games[name]
     return if game.giantbomb_id
     fetch url.format
       protocol: 'http'
@@ -32,11 +31,13 @@ fetch = require 'node-fetch'
         game.giantbomb_image = info.image.small_url if info.image
       else
         delete db.games[name]
+    .catch (err) ->
+      Promise.resolve()
 .reduce (prev, val) ->
   prev.then val
 , Promise.resolve()
 .catch (err) ->
   console.error err
-  return
+  Promise.resolve()
 .then ->
   (denodeify fs.writeFile) './db.json', JSON.stringify db
